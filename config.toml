@@ -1,4 +1,4 @@
-baseURL = "/FCAJ-LeQuocAnh-2280600064/"
+baseURL = "/FCAJ-HuynhQuocDai-2280600543/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
@@ -14,18 +14,18 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = "https://github.com/LeQu0cAnh/FCAJ-LeQuocAnh-2280600064/edit/main/content/"
+  editURL = "https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543/edit/main/content/"
   description = ""
-  author = "Lê Quốc Anh"
+  author = "Huỳnh Quốc Đại"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  
+
 [Languages]
 [Languages.en]
 title = "Internship Report"
 weight = 1
-languageName = "English"
+label = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -36,13 +36,13 @@ weight = 20
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> My GitHub Repo"
 identifier = "My GitHub Repo"
-url = "https://github.com/LeQu0cAnh/FCAJ-LeQuocAnh-2280600064"
+url = "https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543"
 weight = 21
 
 [Languages.vi]
 title = "Báo cáo thực tập"
 weight = 2
-languageName = "Tiếng Việt"
+label = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -53,7 +53,7 @@ weight = 20
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> GitHub của tôi"
 identifier = "GitHub cua tôi"
-url = "https://github.com/LeQu0cAnh/FCAJ-LeQuocAnh-2280600064"
+url = "https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543"
 weight = 21
 
 [markup]
