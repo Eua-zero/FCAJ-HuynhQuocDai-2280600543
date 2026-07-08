@@ -9,42 +9,25 @@ pre: " <b> 1.3. </b> "
 
 ### Week 3 Objectives:
 
-* Complete the labs and video tutorials of module 4
-* Complete the labs and video tutorials of module 5
+* Complete labs and instructional videos for Module 2
 
-### Tasks to be carried out this week:
+### Tasks to be deployed this week:
 
-| Day       | Task                                                                | Start Date | Completion Date | Reference Material                                                                                                                                                              |
-| --------- | ------------------------------------------------------------------- | ---------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Monday    | Study according to the YouTube content and module 4, 5 instructions | 04/05/2026 | 04/05/2026      | <https://www.youtube.com/watch?v=hsCfP0IxoaM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=103> <br> <https://www.youtube.com/watch?v=tsobAlSg19g&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=150> |
-| Tuesday   | Practice the module 4, 5 labs according to the instructions         | 05/05/2026 | 05/05/2026      | <https://www.youtube.com/watch?v=IHxgFMlL3y8&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=107>                                                                                 |
-| Wednesday | Practice the module 4, 5 labs according to the instructions         | 06/05/2026 | 06/05/2026      | <https://www.youtube.com/watch?v=YnLo4MgOXyA&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=158>                                                                                 |
-| Thursday  | Complete the module 4, 5 labs and summarize the knowledge           | 07/05/2026 | 07/05/2026      |                                                                                                                                                                                 |
-| Friday    | Write worklog and report                                            | 08/05/2026 | 08/05/2026      |                                                                                                                                                                                 |
-| Saturday  | Attend the event                                                    | 09/05/2026 | 09/05/2026      |                                                                                                                                                                                 |
+| Day | Task                                                           | Start Date   | Completion Date | Resource Link                                                                                                                                                    |
+| --- | -------------------------------------------------------------- | ------------ | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mon | Perform relevant practical labs for Module 2.                  | 04/05/2026   | 04/05/2026      | https://www.youtube.com/watch?v=sllYqAECBoM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=56                                                                     |
+| Tue | Perform relevant practical labs for Module 2.                  | 05/05/2026   | 05/05/2026      | https://www.youtube.com/watch?v=bOIq3-2D17Y&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=62                                                                     |
+| Wed | Perform relevant practical labs for Module 2.                  | 06/05/2026   | 06/05/2026      | https://www.youtube.com/watch?v=W1m_OFPDui0&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=67                                                                     |
+| Thu | Complete the labs for Module 2.                                | 07/05/2026   | 07/05/2026      | https://www.youtube.com/watch?v=AWXCQAd4_qM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=71                                                                     |
+| Fri | Write worklog and report                                       | 08/05/2026   | 08/05/2026      |                                                                                                                                                                  |
 
 ### Week 3 Achievements:
 
-**1. Activities and Tasks Completed**
-
-- Studied and practiced the labs based on the content and instructional videos for Modules 4 and 5.
-
-- Summarized the acquired knowledge and the content of the completed practice labs.
-
-- Completed the internship report and worklog for Week 3.
-
-**2. Achieved Results**
-
-- Learned an overview of storage, backup, and data recovery solutions, along with core principles of security, identity management, and access control on AWS.
-
-- Used Amazon S3, Glacier, large-scale data transport (Snow Family), hybrid storage (Storage Gateway), and disaster recovery strategies (AWS Backup, DR).
-
-- Mastered the shared responsibility model, identity and access management (IAM), user authentication for applications (Cognito), and centralized multi-account management (AWS Organizations).
-
-- Was introduced to new architectures, working tips, and the professional mindset from senior colleagues.
-
-**3. General Assessment and Orientation**
-
-- **Assessment:** Continued to maintain the schedule and complete the week's lessons. However, experienced overload and had to skip some practice labs (in addition to those explicitly instructed to skip) because the number of practical exercises was simply too large.
-
-- **Orientation (Lessons Learned):** Scheduling a dense study plan during weekdays caused time pressure when unexpected events occurred. There is a need to balance the study schedule more flexibly.
+* **General Results:** Carefully studied the instructional video materials and successfully deployed the entire series of relevant practical labs under Module 2 on schedule.
+* **Weekly Evaluation:** Successfully completed the tasks, strictly adhered to the set targets, and mastered the core knowledge of Module 2 through practical execution.
+* **Detailed Implementation Results:**
+ * **May 04, 2026:** Watched the instructional video and completed the first relevant practical lab for Module 2.
+ * **May 05, 2026:** Continued studying materials and successfully executed the next practical lab for Module 2.
+ * **May 06, 2026:** Completed the third practical lab for Module 2 based on the instructional video.
+ * **May 07, 2026:** Studied the final video and fully accomplished all remaining labs for Module 2.
+ * **May 08, 2026:** Summarized the weekly learning outcomes, wrote the worklog, and submitted the weekly report on time.

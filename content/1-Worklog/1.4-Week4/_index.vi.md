@@ -9,43 +9,25 @@ pre: " <b> 1.4. </b> "
 
 ### Mục tiêu tuần 4:
 
-* Hoàn thành các bài lab và video hướng dẫn của module 6
-* Hoàn thành các bài lab và video hướng dẫn của module 7
+* Hoàn thành các bài lab và video hướng dẫn của module 3,4.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                |
 | --- | -------------------------------------------------------------- | ------------ | --------------- | --------------------------------------------------------------------------------------------- |
-| 2   | Học theo nội dung youtube và các phần hướng dẫn của module 6,7 | 11/05/2026   | 11/05/2026      | https://www.youtube.com/watch?v=OOD2RwWuLRw&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=217 |
-| 3   | Thực hành các bài lab của module 6,7 theo hướng dẫn            | 12/05/2026   | 12/05/2026      | https://www.youtube.com/watch?v=B5rOeWQWg1c&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=220 |
-| 4   | Thực hành các bài lab của module 6,7 theo hướng dẫn            | 13/05/2026   | 14/05/2026      | https://www.youtube.com/watch?v=uYCW51_pBBA&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=246 |
-| 5   | Hoàn thiện các bài lab của module 6,7 và tổng kết kiến thức    | 14/05/2026   | 14/05/2026      |                                                                                               |
-| 6   | Viết worklog và báo cáo                                        | 15/05/2026   | 15/05/2026      |                                                                                               |
+| 2   | Xem YouTube về module 3,4 để chuẩn bị kiến thức liên quan.          | 11/05/2026   | 11/05/2026      | https://www.youtube.com/watch?v=iw0qEi-PiOc&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=93  |
+| 3   | Thực hiện các bài thực hành lab liên quan của module 3,4.           | 12/05/2026   | 12/05/2026      | https://www.youtube.com/watch?v=B5rOeWQWg1c&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=220 |
+| 4   | Thực hiện các bài thực hành lab liên quan của module 3,4.           | 13/05/2026   | 14/05/2026      | https://www.youtube.com/watch?v=ZIQ2uvgLUVQ&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=115 |
+| 5   | Hoàn thành các bài lab của module 3,4.                              | 14/05/2026   | 14/05/2026      | https://www.youtube.com/watch?v=_O2mZKeFkGg&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=149 |
+| 6   | Viết worklog và báo cáo                                             | 15/05/2026   | 15/05/2026      |                                                                                               |
 
 ### Kết quả đạt được tuần 4:
 
-**1. Các hoạt động và công việc đã thực hiện**
-
-- Tiến hành học tập và thực hành các bài lab theo nội dung và các video hướng dẫn của Module 6, 7.
-
-- Tổng kết kiến thức đã học và nội dung các bài lab đã thực hành.
-
-- Hoàn thiện báo cáo thực tập và worklog của Tuần 4.
-
-**2. Kết quả đạt được**
-
-- Nắm vững các giải pháp Lưu trữ, Quản trị Cơ sở dữ liệu (Relational, NoSQL, Caching) và toàn bộ quy trình Phân tích dữ liệu (Data Analytics) trên AWS.
-
-- Hiểu cách xây dựng luồng xử lý (pipeline), truy vấn và trực quan hóa dữ liệu để đưa ra các quyết định kinh doanh.
-
-- Quản lý và tối ưu hóa hệ quản trị cơ sở dữ liệu quan hệ (Amazon RDS, Aurora) và kho dữ liệu (Redshift). Ứng dụng bộ nhớ đệm (ElastiCache) để tăng tốc độ phản hồi và làm quen với công cụ di trú dữ liệu (DMS, SCT) lên đám mây.
-
-- Thực hành chuyên sâu về cơ sở dữ liệu Serverless NoSQL (DynamoDB) và kiến trúc Event-Driven.
-
-- Triển khai các luồng xử lý dữ liệu (ETL) với AWS Glue, EMR, DataBrew; truy vấn dữ liệu bằng Athena; xử lý dữ liệu luồng (Kinesis); và thiết kế Dashboard trực quan hóa bằng Amazon QuickSight.
-
-**3. Đánh giá chung và Định hướng**
-
-- **Đánh giá:** Đã hoàn thành các bài lab và các bài giảng cơ bản theo hướng dẫn. Tuy nhiên, do tăng tốc tiến độ nên cá nhân cảm thấy chưa nắm rõ lắm các bài học.
-
-- **Định hướng:** Sẽ dành tuần tiếp theo để ôn tập và củng cố lại kiến thức cơ bản trọng tâm trước. Đồng thời, bắt đầu từ tuần sau sẽ lên kế hoạch, chọn đề tài và bắt đầu chuẩn bị cho đề tài.
+* **Kết quả chung:** Nghiên cứu kỹ tài liệu video hướng dẫn trên YouTube và hoàn thành toàn bộ chuỗi các bài thực hành lab thuộc module 3 và module 4 đúng tiến độ.
+* **Đánh giá tuần:** Đạt yêu cầu đề ra, bám sát các mục tiêu và nắm vững nội dung kiến thức nền tảng của cả hai module thông qua thực hành.
+* **Chi tiết kết quả thực hiện:**
+ * **Ngày 11/05/2026:** Hoàn thành xem các video hướng dẫn về module 3 và 4 để chuẩn bị đầy đủ kiến thức liên quan.
+ * **Ngày 12/05/2026:** Triển khai thành công bài thực hành lab đầu tiên liên quan đến nội dung module 3,4.
+ * **Ngày 13/05/2026:** Tiếp tục thực hiện và tối ưu các bài thực hành lab tiếp theo của module 3,4 theo đúng quy trình.
+ * **Ngày 14/05/2026:** Hoàn thiện toàn bộ các bài lab còn lại và kết thúc nội dung học tập của module 3,4.
+ * **Ngày 15/05/2026:** Tổng hợp toàn bộ kết quả, viết worklog và hoàn thành nộp báo cáo tuần 4.

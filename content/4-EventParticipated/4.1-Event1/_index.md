@@ -1,121 +1,53 @@
 ---
-title: "FCAJ Community Day: Meet up"
-date: 2026-05-09
+title: "Event 1"
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: “FCAJ Community Day: Meet up”
+# EVENT REPORT: TASK AUTOMATION WITH AMAZON Q AI ASSISTANT AND MCP
 
-### Event Objectives
+### I. Objectives & General Context
+Through the technology events (focusing on Amazon Q, the MCP protocol, and the FCAJ Community Conference), I had the opportunity to access a comprehensive overview of how AI is reshaping the corporate environment. The content went beyond the surface level of generative AI tools, delving into system architecture, product-driven mindset, and the stringent security barriers encountered during practical deployment.
 
-- Encourage young people to confidently share new knowledge, practice presentation skills, and improve public speaking confidence.
-- Share effective learning methods and how to use Dopamine to turn learning into a fun habit.
-- Enhance AI communication skills through Prompt Engineering and introduce automation tools in software development.
-- Provide real-world enterprise perspectives on professional mindset, integrity, and long-term career orientation for Freshers.
+### II. Technological & Technical Highlights
 
-### Speakers
+### 1. From Single Agent to Multi-Agent Architecture
+Current LLMs are highly intelligent, but a single Agent is limited by its Context Window and is easily overwhelmed by complex problems.
 
-- **Huynh Hoang Long** - Admin of FCAJ
-- **Nguyen Tuan Thinh** - DevOps/Cloud Engineer FCAJ
-- **Nguyen Duy Khang** - Solution Architect of Cloud Kinetics
-- **Nguyen Phuong Thao** - Application Cloud Dev of VIB, FCJ Ambassador
+The optimal solution is to build a Multi-Agent system (such as a Credit Council model), dividing it into specialized Agents (Financial Analysis, Risk Assessment, Orchestration, etc.). This division enables the system to process tasks in parallel and possess cross-validation capabilities.
 
-### Key Highlights
+### 2. MCP and Execution Capability (Action)
+Core formula: Agent = LLM + Action/Function (MCP).
 
-#### Communicating with AI techniques
+The Model Context Protocol (MCP) serves as the technical bridge that allows AI to transcend conventional Q&A boundaries, connecting directly with external applications (Jira, Gmail, Teams) to automate raw processes (such as data visualization and sending task assignment emails after meetings).
 
-- Provide **clear prompts** → AI avoids generating poor-quality results or hallucinations.
-- Write **detailed prompts**, avoid general prohibition commands → narrow the scope and focus on necessary content.
+### 3. Context Engineering
+"Injecting" knowledge into AI is not about cramming hundreds of raw PDF pages. Instead, it requires extracting business "essentials" from experts (Knowledge Transfer) to create standard contexts. This helps LLMs process information accurately and minimizes unpredictability (Hallucination/Inference optimization).
 
-#### 7 components of a standard Prompt
+### III. Business Mindset & Enterprise Operations (Enterprise-grade AI)
 
-- The components of a standard prompt include:
-+ **Role**
-+ **Instruction**
-+ **Context**
-+ **Input**
-+ **Output format**
-+ **Example**
-+ **Constraint**
+### 1. Solving Problems with ROI (Return on Investment)
+Technology is merely a tool. Any AI solution (even those costing billions of VND) must answer: Who does it serve? Why use it? And what is the return on investment?
 
-#### Understanding Tokens and advanced techniques
- 
-- Different languages consume different token amounts (Vietnamese costs twice as much as English).
-- Leverage AI reasoning techniques like Chain of Thought (step-by-step thinking) or Tree of Thought for optimal results.
+"Numbers speak louder than words" - Every technological proposal presented to management must be proven by actual figures regarding the payback period rather than empty promises.
 
-#### Real-world AWS project architecture
+### 2. Security and Responsibility (Audit & Compliance)
+In the corporate environment (especially in finance), security is paramount. The integration of peripheral tools must be strictly controlled.
 
-- Apply a **Serverless** system with core services like CloudFront, S3 (frontend storage/data lake), Cognito (user authentication), API Gateway, Lambda (serverless backend requiring no server management), Bedrock (AI Foundation Model integration), and DynamoDB.
+The system needs to establish Guardrails to check Input/Output to prevent Prompt Injection and strictly manage the API Key lifecycle.
 
-#### Mindset and Orientation
+Humans are the ultimate gatekeepers: No matter how autonomous AI becomes, the engineer and the system approver remain legally responsible for the decisions made (such as approving loans).
 
-- **Foundations are immutable**: Tools change every day, but what employers look for is a solid thought process and foundational knowledge to solve problems.
-- **AI is an amplification tool**: AI does not replace thinking. If you do poorly, AI makes it worse; if you do well, AI multiplies productivity x2, x10. Never "outsource" your own understanding to AI.
-- **The "Why" culture**: Always question the reasons behind technology choices or code implementations rather than just focusing on "what to do".
+### IV. Application Orientation and Personal Lessons
+* **Solidifying the Software Engineering foundation:** AI cannot replace core knowledge (Backend, Database, Cloud Infrastructure, Security). This remains the deciding factor in taking a project from a "home demo" to a real Production environment in a bank or enterprise.
+* **Understanding Stakeholders:** It is necessary to clearly grasp the KPIs of other departments (Business, Security) to communicate, request permissions, and coordinate teamwork more smoothly.
+* **Practicing Automation:** Apply Amazon Q and customize MCP Servers to automate personal workflows. When designing systems, I will prioritize breaking down logic towards a Multi-Agent approach for complex tasks.
 
-#### Integrity and Attitude
+### V. Practical Experience & Perspectives at the Event
+The practical sharing sessions from speakers (like Mr. Hai An, Ms. Cat Vy...) truly broadened my mindset regarding the gap between theory and the practical deployment of "Enterprise-grade AI". Witnessing firsthand the automated processing flow of Amazon Q or analyzing the credit assessment architecture for Startups helped me realize the strictness, discipline, and heavy responsibility of a modern software engineer. The event was also a fantastic opportunity to network and learn from experienced predecessors.
 
-- **At work**: Work with integrity, proactively dig into edge cases even when not requested.
-- **For employers**: The priority criteria for a Fresher are Attitude, followed by Qualifications/Education, Experience, and Aptitude.
+In general, the event series not only provided deep technical foundations but also completely shifted my mindset: from merely focusing on writing code to designing safe, reliable automated solutions that deliver truly measurable value to the enterprise.
 
-### Key Takeaways
-
-#### Design Mindset
-
-- **Foundation-first approach**: Always start with foundational knowledge and thought processes instead of chasing flashy services or tools.
-- **The "Why" culture**: Question the reasoning behind every technology or system architecture decision, not just stopping at making the code work.
-- **Integrity**: Proactively manage and handle edge cases even if they aren't in the original requirements, showing a long-term working attitude.  
-
-#### Technical Architecture
-
-- **Ultimate Prompt Engineering**: Master the 7 components structure (Role, Instruction, Context, Input, Output, Example, Constraint) to communicate accurately with AI and minimize hallucinations.
-- Use **Serverless Architecture** instead of self-managing servers with EC2.
-- **Integration patterns**: Seamlessly integrate data flows through services like CloudFront, S3, Cognito, API Gateway, Lambda, and DynamoDB to build real-world web systems.
-- **Advanced AI Reasoning**: Understand and use AI reasoning techniques like Chain of Thought or Tree of Thought to optimize output quality.
-
-#### AI Utilization & Development Strategy
-
-- **AI Amplification**: Treat AI as a tool to amplify productivity x2, x10, but absolutely do not delegate your core thinking to it.
-- **Phased approach for career**: Take a long-term view, be willing to experience and accept mistakes to grow faster.
-- **Multi-dimensional valuation**: Evaluate job value through Experience, Network, and Knowledge rather than just focusing on salary.
-
-### Applying to Work
-
-- **Apply Ultimate Prompting** for current projects: Set context and break down tasks for AI to generate code or write documents accurately, avoiding overlapping information.
-- **Refactor cloud architecture**: Pilot Serverless services (like AWS Lambda, API Gateway) to minimize infrastructure management effort for small projects.
-- **Implement Integrity**: Proactively outline and handle 20-30 additional edge cases instead of just meeting the 10 core assigned requirements.
-- **Try AI Extensions**: Install and use AI extensions (e.g., Promptizer) directly on the browser to quickly optimize prompts and enhance daily productivity.
-- **Build a network**: Focus on teamwork and proactively ask more questions to practice communication skills; avoid "going solo" in projects.
-
-### Event Experience
-
-Attending the **“FCAJ Community Day”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Speakers (like Mr. Khang from Cloud Kinetics) shared best practices in working mindset, helping me understand that businesses need a "thought process" rather than someone who merely uses tools mindlessly.
-- Through real-world sharing, I better understood how employers evaluate a Fresher: Attitude is always the top priority, followed by Qualifications and Experience.
-
-#### Hands-on technical exposure
-- Participating in Mr. Thinh's session helped me visualize how to design a practical Serverless architecture, from storage with S3 to user management with Cognito and logic processing with Lambda.
-- Learned how to structure a standard 7-component prompt and avoid AI hallucinations by breaking down context.
-- Understood the trade-offs between Serverless (Lambda) and traditional compute (like EC2) when starting to design a backend.
-
-#### Leveraging modern tools
-- Directly explored AI browser extensions, tools that support rapid prompt generation and optimization.
-- Learned how to **automate** and **boost productivity** by leveraging AI as an amplification lever while retaining core understanding.
-
-#### Networking and discussions
-- The event created opportunities for open exchange with the community, practicing a confident attitude when sharing knowledge and building a network.
-- Through the stories told, I realized the importance of the **foundation-first approach**, always starting from foundational knowledge rather than just focusing on chasing new services.
-
-#### Lessons learned
-- Applying the "Why" culture and integrity helps me increase proactiveness and deep problem-solving abilities when facing real software architectures.
-- Career orientation requires a long-term vision and prioritizing the cultivation of experiences; one shouldn't give up hastily when encountering short-term difficulties.
-- AI tools can boost productivity significantly if used correctly, but they absolutely must not replace one's own critical thinking.
-
-#### Some event photos
-![event photo](/images/event0905.jpg)
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Event Participation Image](/images/4-EventParticipated/event_1.jpg)

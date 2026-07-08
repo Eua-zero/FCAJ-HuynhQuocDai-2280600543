@@ -6,9 +6,9 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Vietnam** từ **20/04/2026** đến **12/07/2026**, tôi có cơ hội tham gia môi trường làm việc chuyên nghiệp và tiếp cận quy trình triển khai nội dung theo chuẩn doanh nghiệp. Việc học trên lớp được kết nối trực tiếp với thực tế thông qua các đầu việc có tiến độ rõ ràng, có mục tiêu theo từng tuần và có đánh giá kết quả cụ thể.
+Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Vietnam** từ **17/04/2026** đến **10/07/2026**, tôi có cơ hội tham gia môi trường làm việc chuyên nghiệp và tiếp cận quy trình triển khai nội dung theo chuẩn doanh nghiệp. Việc học trên lớp được kết nối trực tiếp với thực tế thông qua các đầu việc có tiến độ rõ ràng, có mục tiêu theo từng tuần và có đánh giá kết quả cụ thể.
 
-Trong kỳ thực tập, tôi tập trung vào các nhóm công việc chính gồm: xây dựng worklog theo tuần, nghiên cứu và biên soạn nội dung workshop về Amazon S3 trong mô hình kết nối VPC và môi trường giả lập on-premises, đồng thời dịch và chuẩn hóa một số bài blog kỹ thuật. Thông qua quá trình này, tôi cải thiện đáng kể các kỹ năng **phân tích yêu cầu**, **tổ chức tài liệu kỹ thuật**, **trình bày nội dung có cấu trúc**, **sử dụng dịch vụ AWS ở mức thực hành**, và **giao tiếp trong bối cảnh làm việc nhóm**.
+Trong kỳ thực tập, tôi đã tập trung thực hiện các nhóm công việc gồm: tập trung xem, học hỏi từ các video liên quan đến AWS để nắm vững kiến thức cơ bản liên quan đến cloud và những công nghệ mới lạ mà Aws có. Thực hiện xây dựng worklog theo tuần, thực hiện dự án AI Assistant cùng nhóm và đồng thời liên tục trau dồi các kiến thức cốt lõi của các  kỹ thuật mà bản thân sử dụng thông qua sự trợ giúp của nhiều nguồn. Thông qua các trải nghiệm trong 12 tuần tôi đã không ngừng cải thiện các kỹ năng như **phân tích kiến trúc**, **Nắm bắt yêu cầu**, **Sử dụng các dịch vụ của AWS**, **Khả năng giao tiếp khi làm việc nhóm**, **Khả năng tư duy và sáng tạo** 
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
 
@@ -18,12 +18,12 @@ Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân t
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
 | 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
 | 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
+| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ☐   | ✅   | ☐          |
+| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                |  ☐  | ✅   | ☐          |
 | 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ✅   | ☐   | ☐          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
+| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ✅   | ☐   | ☐          |
 | 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
+| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ☐   | ✅   | ☐          |
 | 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
 | 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
 | 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
@@ -31,6 +31,6 @@ Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân t
 
 ### Cần cải thiện
 
-* Mở rộng tầm nhìn chuyên môn và chủ động áp dụng các công nghệ và phương pháp mới. 
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+* **Kỷ luật:** Cần cải thiện hơn trong tinh thần tự giác nhận nhiệm vụ, phân bổ thời gian hợp lý và hoàn thành nhanh hơn các nhiệm vụ được giao hay đặt ra.
+* **Giao tiếp:** Vẫn chưa thể hoàn toàn khắc phục được nỗi sợ đám đông hay đứng trên sân khấu.
+* **Hợp tác nhóm:** Sự chủ động vẫn còn hạn chế, đôi lúc khá im lặng trong các cuộc họp nhóm.

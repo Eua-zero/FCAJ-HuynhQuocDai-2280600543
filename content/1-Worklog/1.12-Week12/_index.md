@@ -9,35 +9,26 @@ pre: " <b> 1.12. </b> "
 
 ### Week 12 Objectives:
 
-* Finalize the product
+* Finalize the product.
 * Write the report
 
-### Tasks to be carried out this week:
+### Tasks to be deployed this week:
 
-| Day       | Task                     | Start Date | Completion Date | Reference Material                                       |
-| --------- | ------------------------ | ---------- | --------------- | -------------------------------------------------------- |
-| Monday    | Review and edit          | 6/07/2026  | 6/07/2026       |                                                          |
-| Tuesday   | Review and edit          | 7/07/2026  | 7/07/2026       |                                                          |
-| Wednesday | Write report             | 8/07/2026  | 9/07/2026       | <https://github.com/LeQu0cAnh/FCAJ-LeQuocAnh-2280600064> |
-| Thursday  | Write report             | 9/07/2026  | 9/07/2026       | <https://github.com/LeQu0cAnh/FCAJ-LeQuocAnh-2280600064> |
-| Friday    | Write worklog and report | 10/07/2026 | 10/07/2026      |                                                          |
+| Day | Task | Start Date | Completion Date | Reference Materials |
+| --- | ----------------------- | ------------ | --------------- | ------------------------------------------------------ |
+| Mon | Write the report        | 6/07/2026    | 6/07/2026       |https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543|
+| Tue | Write the report        | 7/07/2026    | 7/07/2026       |https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543|
+| Wed | Write the report        | 8/07/2026    | 9/07/2026       |https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543|
+| Thu | Write the report        | 9/07/2026    | 9/07/2026       |https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543|
+| Fri | Write worklog and report| 10/07/2026   | 10/07/2026      |                                                        |
 
 ### Week 12 Achievements:
 
-**1. Activities and Tasks Completed**
-
-- Checked and reviewed the AWS services used as well as any incurred services/costs.
-
-- Checked, modified, and fine-tuned the product's functions, and fixed security vulnerabilities.
-
-- Focused on finalizing the internship report.
-
-- Summarized the week's content and the completed tasks.
-
-**2. Achieved Results**
-
-- Successfully finalized the product and the final report.
-
-**3. General Assessment and Orientation**
-
-- **Assessment:** Successfully and fully completed the assigned tasks for the week.
+* **General results:** Focus on finalizing the report.
+* **Weekly evaluation:** Excellently completed the entire internship. Self-assessed to reach 100% of the workload, accumulating many valuable practical experiences.
+* **Details of implementation results:**
+  * **July 06, 2026:** Wrote the report.
+  * **July 07, 2026:** Wrote the report.
+  * **July 08, 2026:** Wrote the report.
+  * **July 09, 2026:** Wrote the report.
+  * **July 10, 2026:** Wrote worklog and report

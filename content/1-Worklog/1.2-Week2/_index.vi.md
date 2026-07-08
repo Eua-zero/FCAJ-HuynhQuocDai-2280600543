@@ -9,41 +9,27 @@ pre: " <b> 1.2. </b> "
 
 ### Mục tiêu tuần 2:
 
-* Hoàn thành các bài lab và video hướng dẫn của module 2
-* Hoàn thành các bài lab và video hướng dẫn của module 3
+* Hoàn thành các bài lab 1, xem video hướng dẫn của module và lab 2.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                                                                                                                   |
-| --- | -------------------------------------------------------------- | ------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 2   | Học theo nội dung youtube và các phần hướng dẫn của module 2,3 | 27/04/2026   | 27/04/2026      | https://www.youtube.com/watch?v=O9Ac_vGHquM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=25 <br> <https://www.youtube.com/watch?v=-t5h4N6vfBs&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=72> |
-| 3   | Thực hành các bài lab của module 2,3 theo hướng dẫn            | 28/04/2026   | 28/04/2026      | https://www.youtube.com/watch?v=O5CIvG0Wt78&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=28                                                                                                     |
-| 4   | Thực hành các bài lab của module 2,3 theo hướng dẫn            | 29/04/2026   | 30/04/2026      | https://www.youtube.com/watch?v=7r_-MnOO64s&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=81                                                                                                     |
-| 5   | Hoàn thiện các bài lab của module 2,3 và tổng kết kiến thức    | 30/04/2026   | 30/04/2026      |                                                                                                                                                                                                  |
-| 6   | Viết worklog và báo cáo                                        | 01/05/2026   | 01/05/2026      |                                                                                                                                                                                                  |
+| Thứ | Công việc                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                                                                                   |
+| --- | -------------------------------------------------------------- | ------------ | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2   | Hoàn thành các bài lab của module 1.                           | 27/04/2026   | 27/04/2026      | https://www.youtube.com/watch?v=waR5S_lljrk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=11                                                                     |
+| 3   | Xem youtube về module 2 để chuẩn bị kiến thức liên quan.            | 28/04/2026   | 28/04/2026      | https://www.youtube.com/watch?v=O9Ac_vGHquM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=25                                                                     |
+| 4   | Thực hiện các bài thực hành lab liên quan của module 2.              | 29/04/2026   | 30/04/2026      | https://www.youtube.com/watch?v=O5CIvG0Wt78&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=28                                                                     |
+| 5   | Thực hiện các bài thực hành lab liên quan của module 2.              | 30/04/2026   | 30/04/2026      | https://www.youtube.com/watch?v=EQ-5P6U7Ph4&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=47                                                                     |
+| 6   | Viết worklog và báo cáo                                             | 01/05/2026   | 01/05/2026      |                                                                                                                                                                  |
 
 ### Kết quả đạt được tuần 2:
 
-**1. Các hoạt động và công việc đã thực hiện**
-
-- Tiến hành học tập và thực hành các bài lab theo nội dung và video hướng dẫn của Module 2 và 3.
-
-- Thực hành các bài lab chuyên sâu liên quan đến hệ thống mạng trên AWS.
-
-- Thực hành các bài lab liên quan đến điện toán và lưu trữ trên nền tảng AWS.
-
-- Tổng kết lại kiến thức đã học và nội dung các bài lab đã thực hành.
-
-- Hoàn thiện báo cáo thực tập và worklog của Tuần 2.
-
-**2. Kết quả đạt được**
-
-- Học và nắm vững được các kiến thức cốt lõi về cách thiết lập hạ tầng mạng bảo mật, an toàn.
-
-- Biết cách triển khai và cấu hình máy chủ ảo, hệ thống lưu trữ, cũng như thiết lập tự động co giãn tài nguyên trên nền tảng AWS.
-
-**3. Đánh giá chung và Định hướng**
-
-- **Tiến độ & Định hướng:** Bắt đầu tăng tốc hoàn thành các bài học trước nhanh nhất có thể để tranh thủ dành thêm thời gian cho phần đề tài sẽ làm trong tương lai.
-
-- **Đánh giá:** Nội dung phần đầu khá nhẹ nhàng, do đó vẫn hoàn toàn có thể bắt kịp tiến độ đã đề ra trong tuần.
+* **Kết quả chung:** Hoàn thành tốt các bài thực hành lab của module 1, nghiên cứu tài liệu video và triển khai thành công các bài lab thực hành liên quan đến kiến thức của module 2.
+* **Đánh giá tuần:**
+ * Hoàn thành tốt chỉ tiêu, bám sát kế hoạch đề ra.
+ * Nắm vững kiến thức nền tảng và cách triển khai thực tế của các module đã học.
+* **Chi tiết kết quả thực hiện:**
+ * **Ngày 27/04/2026:** Hoàn thành xuất sắc các bài lab thực hành của module 1.
+ * **Ngày 28/04/2026:** Xem và nghiên cứu xong các video hướng dẫn về module 2 để chuẩn bị kiến thức nền tảng.
+ * **Ngày 29/04/2026:** Bắt đầu triển khai và thực hiện các bài thực hành lab đầu tiên liên quan đến module 2.
+ * **Ngày 30/04/2026:** Tiếp tục hoàn thiện toàn bộ các bài thực hành lab còn lại của module 2 theo đúng tiến độ.
+ * **Ngày 01/05/2026:** Tổng hợp số liệu, viết hoàn chỉnh worklog và nộp báo cáo tuần 2.

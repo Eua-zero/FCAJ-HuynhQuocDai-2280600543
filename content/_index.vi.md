@@ -7,11 +7,11 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Lê Quốc Anh
+&emsp; **Họ và tên:** Huỳnh Quốc Đại
 
-&emsp; **Số điện thoại:** 0764 424 003
+&emsp; **Số điện thoại:** 0938164171
 
-&emsp; **Email:** lequocanh.work@gmail.com
+&emsp; **Email:** Windskyqd@gmail.com
 
 &emsp; **Trường:** Trường Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH)
 
@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 17/07/2026
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+![Ảnh đại diện của bạn](/images/avater.png)
 
 
 

@@ -6,26 +6,26 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
+**Week 1:** [Get to know team members, set up an AWS account, and get familiar with AWS architecture.](1.1-week1/)
 
-**Week 2:** [Completing the labs and instructional videos of modules 2 and 3](1.2-week2/)
+**Week 2:** [Complete lab 1, watch module instructional videos, and complete lab 2.](1.2-week2/)
 
-**Week 3:** [Completing the labs and instructional videos of modules 4 and 5](1.3-week3/)
+**Week 3:** [Complete labs and instructional videos for Module 2.](1.3-week3/)
 
-**Week 4:** [Completing the labs and instructional videos of modules 6 and 7](1.4-week4/)
+**Week 4:** [Complete labs and instructional videos for Modules 3 and 4.](1.4-week4/)
 
-**Week 5:** [Finalizing the labs and instructional videos. Selecting the team project topic and delegating tasks](1.5-week5/)
+**Week 5:** [Review knowledge, finalize the project topic, and divide tasks.](1.5-week5/)
 
-**Week 6:** [Starting the product development](1.6-week6/)
+**Week 6:** [Grasp the preliminary plan, allocate tasks, and prepare the necessary tools.](1.6-week6/)
 
-**Week 7:** [Building the architecture for the web and Pet](1.7-week7/)
+**Week 7:** [Design the model and initialize the project for the first time.](1.7-week7/)
 
-**Week 8:** [Implementing the planned architecture into reality](1.8-week8/)
+**Week 8:** [Design the product and complete basic functionalities.](1.8-week8/)
 
-**Week 9:** [Fine-tuning the architecture and the product](1.9-week9/)
+**Week 9:** [Complete the project.](1.9-week9/)
 
-**Week 10:** [Finalizing the contents and writing the report](1.10-week10/)
+**Week 10:** [Finalize edits, fix remaining bugs, and write the report.](1.10-week10/)
 
-**Week 11:** [Writing the report](1.11-week11/)
+**Week 11:** [Write the report.](1.11-week11/)
 
-**Week 12:** [Finalizing the product and writing the report](1.12-week12/)
+**Week 12:** [Finalize the product, complete the report, and conduct a comprehensive wrap-up.](1.12-week12/)

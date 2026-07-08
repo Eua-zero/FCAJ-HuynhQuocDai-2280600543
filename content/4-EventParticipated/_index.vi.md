@@ -1,35 +1,16 @@
 ---
 title: "Các events đã tham gia"
-date: 2026-07-06
-weight: 4
+date: 2026-07-08
+weight: 3
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong quá trình thực tập, em đã tham gia 4 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+Trong quá trình thực tập, em đã tham gia 2 events.
+Mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích.
+Cùng với đó là những món quà và những khoảnh khắc rất tuyệt vời.
 
 ### [Event 1](4.1-Event1/)
-
-&emsp;**Tên sự kiện:** FCAJ Community Day: Meet up
-
-&emsp;**Thời gian:** 09:00 ngày 09/05/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-&emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện:** Lắng nghe các chuyên gia (từ FCAJ, Cloud Kinetics, VIB) chia sẻ về kỹ năng giao tiếp với AI (cấu trúc Prompt chuẩn 7 thành phần, tối ưu Token, kỹ thuật Chain/Tree of Thought).
-
-- Tìm hiểu về kiến trúc dự án thực tế trên AWS sử dụng mô hình Serverless (kết hợp các dịch vụ như CloudFront, S3, Cognito, Lambda, DynamoDB, Bedrock).
-- Tiếp thu các góc nhìn thực tế từ doanh nghiệp về tư duy phát triển phần mềm, sự liêm chính trong công việc, và các tiêu chí tuyển dụng đối với một Fresher.
-
-&emsp;**Kết quả hoặc giá trị đạt được:**
-
-- **Kiến thức kỹ thuật:** Nắm vững nghệ thuật Prompt Engineering để áp dụng ngay vào dự án hiện tại (giúp sinh code/document chính xác); hiểu rõ cách thiết kế và ưu nhược điểm của kiến trúc Serverless so với hạ tầng truyền thống.
-- **Tư duy:** Thấm nhuần triết lý "Foundation-first" (ưu tiên nền tảng cốt lõi thay vì chạy theo công cụ), văn hóa liên tục đặt câu hỏi "Tại sao", và nhận thức đúng đắn rằng AI chỉ là công cụ khuếch đại năng suất, không thể thay thế tư duy phản biện của bản thân.
-- **Ứng dụng thực tế và Kỹ năng mềm:** Nâng cao tính chủ động, sự liêm chính trong công việc (tự xử lý các edge cases); rèn luyện thái độ dạn dĩ, kỹ năng giao tiếp, làm việc nhóm và mở rộng thành công mạng lưới quan hệ trong cộng đồng IT.
-
-### [Event 2](4.2-Event2/)
 
 &emsp;**Tên sự kiện:** FCAJ Community Day: Conference Call
 
@@ -39,43 +20,22 @@ Trong quá trình thực tập, em đã tham gia 4 events, với mỗi event là
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
-&emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện:**
+emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện:**
 
-- Tham gia sáu phiên chia sẻ thực tế kết hợp giữa kỹ thuật và nghiệp vụ, tập trung vào AI, Cloud (AWS) và kiến trúc hệ thống doanh nghiệp.
-- Tìm hiểu về tư duy nghiệp vụ khi phát triển AI (hướng đến người dùng, đánh giá ROI, thấu hiểu KPI của các phòng ban khác).
-- Khám phá cách xây dựng hệ thống Multi-Agent để giải quyết các bài toán phức tạp (như đánh giá tín dụng Startup) và kỹ thuật truyền tri thức (Context Engineering).
-- Cập nhật các tiêu chuẩn bảo mật và tuân thủ khắt khe trong môi trường doanh nghiệp (kiểm soát rủi ro từ MCP, quản lý luân chuyển API Key, Audit Trail) cùng kinh nghiệm tối ưu hạ tầng CloudFront.
-
-&emsp;**Kết quả hoặc giá trị đạt được:** 
-
-- **Kiến thức kỹ thuật:** Hiểu rõ cách thiết kế và phân chia chuyên môn trong hệ thống Multi-Agent; nắm được tầm quan trọng của IaC (Terraform) và cách thắt chặt Guardrails (lọc đầu vào chống Prompt Injection) để bảo mật hệ thống.
-- **Tư duy:** Nhận thức sâu sắc về khoảng cách giữa project cá nhân và "Enterprise-grade AI" (AI cấp độ doanh nghiệp). Hiểu nguyên tắc "Numbers speak louder than words" (đề xuất phải đi kèm con số thực tế) và quy tắc con người luôn là chốt chặn cuối cùng chịu trách nhiệm pháp lý.
-- **Ứng dụng thực tế và Kỹ năng mềm:** Biết cách áp dụng Context Engineering để trích lọc kiến thức tinh túy cho LLM thay vì nhồi nhét tài liệu thô; biết cách đánh giá tính khả thi của một giải pháp công nghệ dựa trên bài toán thị trường và mức độ hồi vốn (ROI).
-
-### [Event 3](4.3-Event3/)
-
-&emsp;**Tên sự kiện:** FCAJ Community Day: Mini meet up
-
-&emsp;**Thời gian:** 09:00 ngày 06/06/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-&emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện:**
-
-- Đào sâu vào các giải pháp kỹ thuật thực tiễn như: triển khai Game Multiplayer bằng Godot & AWS WebSockets, ảo hóa với Docker, xây dựng kiến trúc GraphRAG trên AWS, và dùng Machine Learning (mô hình LightGBM) để phát hiện tấn công mạng.
-- Lắng nghe Giám đốc AI toàn cầu của AWS chia sẻ góc nhìn vĩ mô về tương lai AI và lời khuyên cho giới trẻ.
-- Nghe chia sẻ kinh nghiệm thực chiến (xử lý lỗi sập database, chết ổ cứng RAID 5) và định hướng lộ trình thăng tiến từ IT Helpdesk lên System Admin và DevOps Engineer.
-- Tìm hiểu nghệ thuật làm việc nhóm hiệu quả (Teamwork Efficiency) qua 4 nguyên tắc vàng và các công cụ số.
+- Tham gia các phiên chia sẻ chuyên sâu về việc ứng dụng trợ lý AI Amazon Q và giao thức Model Context Protocol (MCP) vào tự động hóa quy trình doanh nghiệp.
+- Tìm hiểu cách chuyển đổi từ kiến trúc Single Agent sang Multi-Agent để giải quyết các bài toán phức tạp (như mô hình Hội đồng tín dụng) bằng cách xử lý song song và phản biện chéo.
+- Khám phá cơ chế hoạt động của MCP để kết nối AI với các ứng dụng ngoại vi (Jira, Gmail, Teams) và kỹ thuật Context Engineering nhằm tối ưu hóa ngữ cảnh cho LLM.
+- Tiếp cận với tư duy thiết kế "Enterprise-grade AI" (AI cấp độ doanh nghiệp), bao gồm cách tính toán lợi ích đầu tư (ROI), thiết lập hàng rào bảo mật (Guardrails) và quản lý rủi ro (Audit & Compliance).
+- Quan sát trực tiếp các demo thực chiến về luồng xử lý tự động của Amazon Q và bóc tách kiến trúc phân tích tín dụng cho Startup.
 
 &emsp;**Kết quả hoặc giá trị đạt được:** 
 
-- **Kiến thức kỹ thuật:** Hiểu rõ sự ưu việt của Container (Docker) so với VM truyền thống. Nắm được luồng xử lý Serverless (API Gateway - Lambda - DynamoDB) cho ứng dụng thời gian thực và cách thiết lập bảo mật đa lớp (WAF kết hợp NIDS). Biết cách ứng dụng GraphRAG để giải quyết các truy vấn dữ liệu phức tạp.
-- **Tư duy:** Thấm nhuần "Operational Mindset" với nguyên tắc "Never test in production" và luôn phải thiết lập backup, monitoring. Hiểu được tầm quan trọng của việc làm chủ nền tảng cốt lõi thay vì chỉ chạy theo công nghệ.
-- **Ứng dụng thực tế và Kỹ năng mềm:** Lên kế hoạch áp dụng Docker vào môi trường local, xây dựng lab cá nhân để rèn luyện tư duy debug. Mở rộng mạng lưới quan hệ trên LinkedIn, GitHub và nhận ra rằng khả năng làm việc nhóm cùng tinh thần không ngại khó là chìa khóa thăng tiến.
+- **Kiến thức kỹ thuật:** Hiểu rõ công thức vận hành cốt lõi của Agent (Agent = LLM + Action/MCP) và cách xây dựng hệ thống Multi-Agent chuyên biệt. Nắm bắt phương pháp Context Engineering (trích xuất tinh túy nghiệp vụ thay vì nhồi nhét dữ liệu thô).
+- **Tư duy phát triển:** Nhận thức rõ khoảng cách giữa lý thuyết và thực tiễn triển khai AI trong môi trường doanh nghiệp. Thấm nhuần nguyên tắc giải quyết bài toán bằng ROI ("Numbers speak louder than words") và quy tắc con người luôn là chốt chặn cuối cùng chịu trách nhiệm pháp lý.
+- **Ứng dụng thực tế và Kỹ năng mềm:** Thay đổi tư duy từ việc "chỉ viết code" sang thiết kế các giải pháp tự động hóa an toàn, đáng tin cậy. Nhận ra tầm quan trọng của nền tảng Software Engineering cốt lõi, cách thấu hiểu KPI của Stakeholders (Business, Security), và định hướng áp dụng Amazon Q/MCP vào tối ưu hóa công việc cá nhân.
 
-### [Event 4](4.4-Event4/)
+
+### [Event 2](4.2-Event2/)
 
 &emsp;**Tên sự kiện:** FCAJ Community Day: Data Driven, AI Risen
 
@@ -87,14 +47,14 @@ Trong quá trình thực tập, em đã tham gia 4 events, với mỗi event là
 
 &emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện:**
 
-- Cập nhật xu hướng dịch chuyển của thị trường việc làm IT (đặc biệt là Developer và Cloud Engineer) trong bối cảnh AI phát triển mạnh.
-- Đi sâu vào các giải pháp GenAI cấp doanh nghiệp: Hệ thống Multi-Agent, Agentic Platform cho quản trị Cloud, và ứng dụng DevOps AI Agent để tự động tìm nguyên nhân gốc rễ (Root Cause) của sự cố.
-- Phân tích chi tiết kiến trúc Voice AI tối ưu cho tiếng Việt (xử lý khoảng lặng ngắt lời, nhận diện giới tính, ứng dụng giọng vùng miền).
-- Ứng dụng Amazon Q vào việc tự động hóa quy trình sàng lọc nhân sự (HR) và học các tiêu chuẩn bảo mật khắt khe khi kết nối AI với các công cụ bên thứ ba (MCP Server).
-- Xem trực tiếp các demo: Voice Agent truy vấn thông tin, Amazon Q phân tích CV tiếng Việt và mô phỏng DevOps AI xử lý tấn công DDoS.
+- Tham gia các phiên chia sẻ chuyên sâu về sự dịch chuyển công nghệ và giải pháp vận hành thực tế tại doanh nghiệp thông qua hệ thống Multi-Agent, DevOps AI Agent, và tự động hóa quy trình HR bằng Amazon Q.
+- Tìm hiểu kiến trúc phân rã (Decoupled Architecture: STT -> LLM -> TTS) cho Voice AI Tiếng Việt, kết hợp cơ chế Streaming giúp tối ưu độ trễ, kiểm soát "ảo giác" dữ liệu và tích hợp Tool Calling.
+- Khám phá phương pháp xử lý ngữ cảnh xã hội thấu cảm (Customer-Centric) của Voice Agent như: suy luận giới tính để xưng hô, nhận diện khoảng lặng ngắt lời và ứng dụng giọng vùng miền.
+- Tiếp cận các tiêu chuẩn vận hành và bảo mật doanh nghiệp (Enterprise-grade): thiết lập cơ chế an toàn "Human-in-the-loop" và kiến trúc "Security-First" (đặt MCP Server trong Private Subnet qua VPC Connection).
+- Quan sát trực tiếp các demo thực chiến: Voice Agent phản hồi tư vấn khách hàng và DevOps Agent phân tích, đề xuất hướng xử lý (Root Cause) cho một cuộc tấn công DDoS.
 
 &emsp;**Kết quả hoặc giá trị đạt được:**
 
-- **Kiến thức kỹ thuật:** Nắm vững kiến trúc Voice Pipeline (STT-LLM-TTS kết hợp Streaming) giúp giảm độ trễ cuộc gọi; hiểu phương pháp bảo mật Security-First Architecture (đưa MCP Server vào Private Subnet, dùng VPC Connection); nắm được khái niệm "Agent Space" và cách tự thiết kế Custom Agent Skills.
-- **Tư duy:** Thấu hiểu nguyên lý "Customer-Centric" (thiết kế AI dựa trên tâm lý/thói quen của người dùng thực tế) và vòng lặp "Human-in-the-loop" (AI đề xuất kế hoạch, con người là chốt chặn phê duyệt cuối cùng). Nhận thức được việc áp dụng AI đòi hỏi doanh nghiệp phải sẵn sàng thay đổi quy trình vận hành.
-- **Ứng dụng thực tế và Kỹ năng mềm:** Có định hướng triển khai Voice bot nội bộ, thử nghiệm liên kết DevOps AI Agent với Datadog/CloudWatch để tối ưu Troubleshooting, và rà soát lại toàn bộ kiến trúc API để đảm bảo không rò rỉ kết nối public ra Internet.
+- **Kiến thức kỹ thuật:** Nắm vững cấu trúc luồng xử lý STT-LLM-TTS cho Voice AI và cách tích hợp gọi hàm (Tool Calling). Hiểu rõ phương pháp bảo mật kết nối nội bộ khi LLM gọi các công cụ ngoại vi thông qua giao thức MCP (Model Context Protocol).
+- **Tư duy phát triển:** Thay đổi tư duy thiết kế hệ thống từ "chạy theo công nghệ" sang "Customer-Centric" (đề cao sự thoải mái của người dùng) và đánh giá bằng lợi ích thực tế (ROI). Thấm nhuần nguyên tắc "Human-in-the-loop" – con người luôn là người đưa ra quyết định phê duyệt cuối cùng.
+- **Ứng dụng thực tế và Kỹ năng mềm:** Có khả năng và định hướng tự triển khai các mô hình Voice bot tiếng Việt độ trễ thấp; biết cách ứng dụng Amazon Q vào việc rà soát CV/log hệ thống; và ý thức thắt chặt bảo mật VPC cho mọi luồng kết nối API từ LLM ra bên ngoài Internet.

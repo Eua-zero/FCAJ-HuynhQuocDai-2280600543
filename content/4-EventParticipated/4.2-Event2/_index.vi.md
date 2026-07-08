@@ -1,106 +1,61 @@
 ---
-title: "FCAJ Community Day: Conference Call"
-date: 2026-05-23
+title: "Event 2"
+date: 2026-06-27
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Bài thu hoạch “FCAJ Community Day: Conference Call”
+# BÀI THU HOẠCH TỔNG HỢP: FCAJ COMMUNITY DAY - AI RISEN & XÂY DỰNG VOICE AGENT QUY MÔ LỚN
+### I. Mục tiêu & Bối cảnh sự kiện
+Thông qua chuỗi sự kiện, các chuyên gia đã mang đến một góc nhìn thực tiễn và chuyên sâu về sự dịch chuyển của thị trường công nghệ trong kỷ nguyên AI. Trọng tâm không chỉ nằm ở bề nổi của các công cụ, mà đi sâu vào giải quyết các bài toán vận hành thực tế tại doanh nghiệp thông qua hệ thống Multi-Agent, DevOps AI Agent, tự động hóa quy trình HR và đặc biệt là kiến trúc Voice AI dành riêng cho thị trường tiếng Việt.
 
-### Mục Đích Của Sự Kiện
+### II. Điểm nhấn Công nghệ & Kỹ thuật
+### 1. Kiến trúc phân rã (Decoupled Architecture) cho Voice AI Tiếng Việt
 
-- Là nơi để cộng đồng kết nối, giao lưu, chủ động bắt chuyện và truyền cảm hứng cho nhau (kể cả những anh em ở khu vực tầng 36).
-- Cập nhật tình hình thị trường việc làm IT trong kỷ nguyên AI và những kỹ năng/yêu cầu mới mà các kỹ sư phần mềm cần trang bị.
-- Đi sâu vào sáu phiên chia sẻ thực tế từ kỹ thuật đến nghiệp vụ, xoay quanh các chủ đề nóng như AI, Cloud (AWS), kiến trúc hệ thống doanh nghiệp và kinh nghiệm thực chiến từ các cuộc thi Hackathon.
+Vấn đề: Các mô hình Speech-to-Speech hiện nay tối ưu tốt cho tiếng Anh nhưng thiếu tài nguyên tiếng Việt, dẫn đến khó kiểm soát "ảo giác" dữ liệu.
 
-### Danh Sách Diễn Giả
+Giải pháp: Phá vỡ luồng xử lý thành 3 chặng độc lập: Speech-to-Text (STT) -> LLM xử lý văn bản -> Text-to-Speech (TTS). Cấu trúc này không chỉ giúp kiểm soát chặt chẽ nội dung AI phát ngôn mà còn mở đường cho việc tích hợp Tool Calling (gọi hàm tự động như khóa thẻ, tra cứu số dư).
 
-- **Trương Tịnh** - platform engineer of GoTymeX
-- **Phạm Nguyễn Hải Anh** - AWS Community Builder | Cloud Consultant
-- **Nguyễn tuấn Thịnh** - DevOps/Cloud Engineer FCAJ
-- **Lê Phạm Ngọc Uyển, Nguyễn Ngọc Quỳnh Mai, Nguyễn Phương Thảo** - Building UTMorpho from Idea to Reality, 36 hrs with LotusHacks team
-- **Đào Minh đức** - Solutions Architect
-- **Lâm Hoàng Cát Vy** - Sr Business Systems Analyst | Applied AI Initiatives Team Lead | IT Young Talents Program Manager of VPBank | AWS AI Engineering Community Builder
+Tối ưu độ trễ (Latency): Để hội thoại tự nhiên, toàn bộ quy trình STT-LLM-TTS phải vận hành qua cơ chế Streaming liên tục, giúp AI phản hồi ngay lập tức mà không cần đợi xử lý trọn vẹn cả câu.
 
-### Nội Dung Nổi Bật
+### 2. Xử lý ngữ cảnh xã hội thấu cảm (Customer-Centric)
+Một Voice Agent "thực chiến" khác xa bản demo ở khả năng thấu hiểu hành vi:
 
-#### Tư duy Nghiệp vụ trong phát triển AI 
+Xưng hô thông minh: Tự động suy luận giới tính, độ tuổi từ giọng nói để xưng hô chuẩn mực (anh/chị).
 
-- **Sản phẩm phải hướng tới người dùng**: Khi thiết kế một giải pháp AI, không chỉ quan tâm đến công nghệ mà phải trả lời được 4 câu hỏi cốt lõi: Ai xài? Xài cái gì? Tại sao phải xài? Khi nào là lúc thích hợp để triển khai giải pháp đó?.
-- **Nghiên cứu thị trường và ROI**: Không thể đề xuất một hệ thống AI tốn kém (ví dụ 1 tỷ đồng) mà không chứng minh được bài toán thị trường và tính khả thi. Mọi giải pháp đều phải đánh giá dựa trên mức độ hồi vốn và lợi ích mang lại (tiết kiệm hàng tỷ đồng thay vì "chém gió" lên hàng triệu đô).
-- **Thấu hiểu KPI của Stakeholder**: Trong môi trường doanh nghiệp, kỹ sư cần hiểu KPI và công việc của các phòng ban khác (như Security, Business) để dễ dàng giao tiếp, xin cấp phép và phối hợp triển khai hệ thống.
+Nhận diện ngắt quãng & Xử lý vùng miền: Phân biệt được khi khách hàng đang ngập ngừng suy nghĩ (đọc số điện thoại) để không cướp lời. Đồng thời, bộ huấn luyện STT được bổ sung 10-20% giọng địa phương để tăng độ chính xác nhận diện, đặc biệt trong các kịch bản hối thúc hoặc nhắc nợ.
 
-#### Xây dựng hệ thống Multi-Agent cho Đánh giá Tín dụng Startup
+### 3. Tự động hóa hạ tầng và quy trình nghiệp vụ
 
-- **Giới hạn của Single Agent**: Với những bài toán phức tạp đòi hỏi nhiều chiều dữ liệu đầu vào (báo cáo tài chính, thị trường, team founder của Startup), một Single Agent sẽ gặp giới hạn về Context Window và thiếu tính chuyên môn sâu, dễ bị quá tải.
-- **Kiến trúc Multi-Agent**: Hệ thống được thiết kế như một "Hội đồng tín dụng" bao gồm: Manager (Orchestrator phân chia công việc), Financial Analyst (phân tích báo cáo tài chính), Research (đánh giá thị phần, đối thủ), Evaluator (đánh giá Founder), và Risk Accessor (đánh giá rủi ro).
-- **Truyền tri thức**: Việc cung cấp ngữ cảnh cho AI không đơn giản là đẩy hàng trăm trang PDF vào, mà là Context Engineering – trích xuất những "tinh túy" nghiệp vụ từ các chuyên gia để hướng dẫn mô hình xử lý chính xác dữ liệu.
+DevOps AI Agent: Giải quyết bài toán phân mảnh log bằng cách tự động vẽ sơ đồ Topology hệ thống, truy xuất log khi có lỗi và đề xuất nguyên nhân gốc rễ (Root Cause) cùng kịch bản khắc phục.
 
-#### Bảo mật, Tuân thủ và Trách nhiệm trong Doanh nghiệp
+Amazon Q trong HR: Đóng vai trò là trợ lý thông minh giúp tự động đọc hiểu CV tiếng Việt, đối chiếu với Job Description và đưa ra đánh giá, giúp tiết kiệm thời gian lọc hồ sơ cảm tính.
 
-- **Kiểm soát rủi ro từ MCP và Prompt Injection**: Trong khối tài chính, bảo mật là ưu tiên hàng đầu. Việc cắm các công cụ (MCP) phải được xét duyệt kỹ để tránh rò rỉ dữ liệu. Hệ thống cần các lớp Output/Input filtering để phòng chống Prompt Injection.
-- **Quản lý khóa API**: Bắt buộc phải thường xuyên thay đổi (rotate) API Key và Access Key của IAM để tránh rò rỉ chi phí (ví dụ bị đánh cắp key để gọi model lớn tiêu tốn tiền).
-- **Audit Trail và Trách nhiệm**: Bất kỳ quyết định nào do AI đưa ra (như duyệt khoản vay 10 tỷ hay 100 tỷ) đều phải lưu vết và có con người rà soát. Người phê duyệt hệ thống mới là người chịu trách nhiệm trước pháp luật, không phải nền tảng AI.
+### III. Tiêu chuẩn Vận hành & Bảo mật Doanh nghiệp (Enterprise-grade)
+### 1. Ranh giới an toàn & Cơ chế Human-in-the-loop
 
-#### Kỹ thuật giao tiếp và tính bất định của AI
+AI có thể đưa ra giải pháp khắc phục lỗi (Mitigation Plan) hoặc tự động hóa đánh giá nhân sự, nhưng việc nhấn nút thực thi luôn cần sự phê duyệt của con người.
 
-- **Tránh tư duy "Internet Builder"**: tránh kéo mọi code, rule trên mạng về dùng mà không hiểu. Cần đưa đúng ngữ cảnh (Mục tiêu, Đối tượng, Định dạng) chuyên biệt của công ty vào prompt.
-- **LLM luôn có tính bất định**: Dù cài Temperature = 0, kết quả vẫn có thể khác nhau do cách GPU tính toán hoặc do các nhà cung cấp tối ưu hóa chi phí (Inference optimization - gộp nhiều câu prompt).
-- Cần có hệ thống test và downstream linh hoạt để xử lý các kết quả không chuẩn định dạng.
+Đối với Voice AI, hệ thống luôn sẵn sàng cơ chế chuyển tiếp (Pass) cuộc gọi sang nhân viên thật một cách mượt mà khi khách hàng tức giận hoặc vấn đề nằm ngoài khả năng xử lý.
 
-#### Hạ tầng Cloud và Kinh nghiệm Hackathon
+### 2. Bảo mật mạng lưới (Security-First Architecture)
 
-- **Amazon CloudFront**: Cung cấp cơ chế Flat-rate pricing giúp doanh nghiệp chặn đứng nỗi lo hóa đơn tăng đột biến (bill spike) khi gặp DDoS, kết hợp các lớp bảo mật như VPC Origin và MTLS.
-- **Kinh nghiệm Hackathon**: Khi xây dựng ứng dụng AI tạo UI trong 36 giờ, bài học lớn nhất là tập trung vào tính năng cốt lõi (edit trực tiếp trên UI) thay vì "over-thinking" làm quá nhiều tính năng. Cần cảnh giác với giới hạn token và tình trạng AI "Over-generation" (tự sinh code thừa).
+Khi Agent gọi các công cụ nội bộ qua MCP (Model Context Protocol), hệ thống đối mặt với rủi ro tấn công. Giải pháp bắt buộc là đặt MCP Server trong Private Subnet, sử dụng VPC Connection và định tuyến hoàn toàn bộ dữ liệu trong mạng nội bộ, ngăn chặn rò rỉ ra Internet.
 
-### Những Gì Học Được
+### IV. Định hướng ứng dụng và Trải nghiệm cá nhân
+Thay đổi tư duy thiết kế: Công nghệ là công cụ, trải nghiệm người dùng là đích đến. Việc thiết kế hệ thống giờ đây phải tính toán đến sự thoải mái của người dùng (không bị AI nhảy vào họng) và tối ưu độ tin cậy bằng con số (ROI).
 
-#### Tư Duy Thiết Kế & Làm Việc
+Ứng dụng thực tiễn:
 
-- **Kiến thức kỹ thuật nền tảng là bắt buộc**: AI chỉ là công cụ hỗ trợ. Để triển khai sản phẩm lên production trong doanh nghiệp, các kiến thức cốt lõi về Software Engineering (Backend, cơ sở dữ liệu, JWT, mã hóa) là yếu tố quyết định.
-- **Phục vụ người dùng cuối**: Tư duy xây dựng hệ thống không chỉ dừng ở mức "chạy được demo", mà phải đảm bảo hệ thống vận hành an toàn (Securely) và đáng tin cậy (Reliably).
+Tự tin triển khai các mô hình STT-LLM-TTS để xây dựng các bot hỗ trợ tự động bằng tiếng Việt với độ trễ thấp.
 
-#### Kiến Trúc Kỹ Thuật & Bảo Mật
+Sử dụng Amazon Q/AI platform để tự động hóa việc rà soát CV hoặc log hệ thống.
 
-- Nắm vững cách thiết kế hệ thống **Multi-Agent**, phân chia chuyên môn rõ ràng cho từng agent để chúng có khả năng **phản biện chéo** và **xử lý song song**.
-- Hiểu tầm quan trọng của **IaC** như Terraform để triển khai hạ tầng nhất quán, quản lý các phiên bản cài đặt và lưu vết các thay đổi.
+Thắt chặt rà soát bảo mật VPC cho mọi luồng kết nối API từ LLM ra bên ngoài.
 
-### Ứng Dụng Vào Công Việc
+Trải nghiệm sự kiện: Được quan sát những demo live thực chiến—như Voice Agent phản hồi tư vấn hay DevOps Agent phân tích cuộc tấn công DDoS—thực sự đã khai mở góc nhìn của tôi về hành trình hiện đại hóa hệ thống. Các diễn giả đã chứng minh được khoảng cách lớn giữa một bản thử nghiệm (POC) và một sản phẩm đủ sức chịu tải cho hàng triệu giao dịch ngân hàng.
 
-- **Đánh giá tính khả thi bằng ROI**: Áp dụng bài học từ chị Cát Vy, bất kỳ đề xuất hệ thống AI nào trong tương lai cũng cần phân tích chi phí và lợi ích (ROI) trước khi trình bày với cấp quản lý.
-- **Cấu trúc Multi-Agent cho tác vụ phức tạp**: Chuyển đổi các tác vụ đọc hiểu tài liệu lớn thành một quy trình gồm nhiều agent (đóng vai trò phân tích, tóm tắt và đánh giá rủi ro) để tăng độ chính xác.
-- **Thắt chặt Guardrails**: Thiết lập các lớp kiểm tra đầu vào (Input filtering) chống Prompt Injection và bảo mật API Key nghiêm ngặt cho dự án cá nhân/công ty.
-- **Thực hành Context Engineering**: Thay vì nhồi nhét tài liệu thô, tôi sẽ học cách trích lọc kiến thức chuyên môn tinh túy (Knowledge Transfer) để làm ngữ cảnh chuẩn cho LLM.
+Tổng thể, sự kiện không chỉ cung cấp khối lượng kiến thức chuyên môn đồ sộ mà còn định hình lại tư duy phát triển phần mềm của tôi: Hướng tới việc tạo ra những kiến trúc AI bảo mật cao, thấu hiểu nghiệp vụ và mang lại giá trị bền vững cho cả doanh nghiệp lẫn người dùng cuối.
 
-### Trải nghiệm trong event
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-
-- Phiên chia sẻ của chị Cát Vy thực sự đã khai mở tư duy của tôi về **"Enterprise-grade AI"**. Tôi nhận ra khoảng cách giữa việc làm một project AI ở nhà và việc đưa nó vào hệ thống ngân hàng là rất lớn, đặc biệt ở khâu tuân thủ và bảo mật dữ liệu.
-- Sự khắt khe trong việc cấp quyền công cụ (thậm chí không được tự tiện cài Ollama vì lo ngại rò rỉ dữ liệu) cho thấy trách nhiệm vô cùng nặng nề của một kỹ sư khi thực chiến.
-
-#### Trải nghiệm kỹ thuật thực tế
-
-- Được hướng dẫn cách tiếp cận bài toán Đánh giá tín dụng cho startup – một nhóm đối tượng thiếu vắng báo cáo tài chính truyền thống – bằng sự phối hợp nhịp nhàng của kiến trúc Multi-Agent.
-- Nắm bắt được lộ trình triển khai vòng đời sản phẩm chuẩn mực trong doanh nghiệp: Từ POC -> Internal testing -> SIT -> UAT -> Pilot cho đến Scale.
-
-#### Ứng dụng công cụ hiện đại
-
-- Trải nghiệm quy trình **"Knowledge Transfer"** thực tế, kết hợp sức mạnh của LLM với tri thức nghiệp vụ tài chính.
-- Mở rộng kiến thức về các framework hỗ trợ doanh nghiệp như Bedrock Agent Core và Terraform để tối ưu hóa việc đóng gói và triển khai hạ tầng.
-
-#### Kết nối và trao đổi
-
-- Sự kiện giúp tôi có cơ hội giao lưu, đặt câu hỏi và hiểu được tầm quan trọng của việc thấu hiểu KPI của đối tác nhằm tạo sự mượt mà trong quá trình làm việc nhóm.
-
-#### Bài học rút ra
-
-- "Numbers speak louder than words": Mọi giải pháp công nghệ đề xuất lên cấp trên đều phải được chứng minh bằng các con số thực tế thay vì những lời hứa hẹn sáo rỗng.
-- Con người luôn là yếu tố chốt chặn cuối cùng: Dù AI có thông minh đến đâu, người kỹ sư thiết kế và người phê duyệt hệ thống vẫn phải chịu trách nhiệm hoàn toàn (Audit) về các quyết định được đưa ra.
-
-#### Một số hình ảnh khi tham gia sự kiện
-
-![Ảnh tham gia sự kiện](/images/event2305.jpg)
-
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![Hình ảnh tham gia sự kiện](/images/4-EventParticipated/event_2.jpg)

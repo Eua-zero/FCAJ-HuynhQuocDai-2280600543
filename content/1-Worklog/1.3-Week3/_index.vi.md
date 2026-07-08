@@ -9,42 +9,25 @@ pre: " <b> 1.3. </b> "
 
 ### Mục tiêu tuần 3:
 
-* Hoàn thành các bài lab và video hướng dẫn của module 4
-* Hoàn thành các bài lab và video hướng dẫn của module 5
+* Hoàn thành các bài lab và video hướng dẫn của module 2.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                                                                                                                                                                                                                                                                     |
-| --- | -------------------------------------------------------------- | ------------ | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2   | Học theo nội dung youtube và các phần hướng dẫn của module 4,5 | 04/05/2026   | 04/05/2026      | https://www.youtube.com/watch?v=hsCfP0IxoaM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=103                                                                                                                                                        https://www.youtube.com/watch?v=tsobAlSg19g&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=150 |
-| 3   | Thực hành các bài lab của module 4,5 theo hướng dẫn            | 05/05/2026   | 05/05/2026      | https://www.youtube.com/watch?v=IHxgFMlL3y8&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=107                                                                                                                                                                                                                                                      |
-| 4   | Thực hành các bài lab của module 4,5 theo hướng dẫn            | 06/05/2026   | 06/05/2026      | https://www.youtube.com/watch?v=YnLo4MgOXyA&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=158                                                                                                                                                                                                                                                      |
-| 5   | Hoàn thiện các bài lab của module 4,5 và tổng kết kiến thức    | 07/05/2026   | 07/05/2026      |                                                                                                                                                                                                                                                                                                                                                    |
-| 6   | Viết worklog và báo cáo                                        | 08/05/2026   | 08/05/2026      |                                                                                                                                                                                                                                                                                                                                                    |
-| 7   | Tham dự sự kiện                                                | 09/05/2026   | 09/05/2026      |                                                                                                                                                                                                                                                                                                                                                    |
+| Thứ | Công việc                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                                                                                   |
+| --- | -------------------------------------------------------------- | ------------ | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2   | Thực hiện các bài thực hành lab liên quan của module 2.        | 04/05/2026   | 04/05/2026      | https://www.youtube.com/watch?v=sllYqAECBoM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=56                                                                     |
+| 3   | Thực hiện các bài thực hành lab liên quan của module 2.        | 05/05/2026   | 05/05/2026      | https://www.youtube.com/watch?v=bOIq3-2D17Y&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=62                                                                     |
+| 4   | Thực hiện các bài thực hành lab liên quan của module 2.        | 06/05/2026   | 06/05/2026      | https://www.youtube.com/watch?v=W1m_OFPDui0&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=67                                                                     |
+| 5   | Hoàn thành các bài lab của module 2.                           | 07/05/2026   | 07/05/2026      | https://www.youtube.com/watch?v=AWXCQAd4_qM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=71                                                                     |
+| 6   | Viết worklog và báo cáo                                        | 08/05/2026   | 08/05/2026      |                                                                                                                                                                  |
 
 ### Kết quả đạt được tuần 3:
 
-**1. Các hoạt động và công việc đã thực hiện**
-
-- Tiến hành học tập và thực hành các bài lab theo nội dung và các video hướng dẫn của Module 4, 5.
-
-- Tổng kết kiến thức đã học và nội dung các bài lab đã thực hành.
-
-- Hoàn thiện báo cáo thực tập và worklog của Tuần 3.
-
-**2. Kết quả đạt được**
-
-- Học các kiến thức tổng quan về các giải pháp lưu trữ, sao lưu, phục hồi dữ liệu; cùng với các nguyên tắc bảo mật, quản lý định danh và phân quyền truy cập cốt lõi trên AWS.
-
-- Sử dụng Amazon S3, Glacier, vận chuyển dữ liệu lớn (Snow Family), lưu trữ lai (Storage Gateway) và các chiến lược khôi phục hệ thống sau thảm họa (AWS Backup, DR).
-
-- Nắm vững mô hình chia sẻ trách nhiệm, quản lý quyền truy cập (IAM), xác thực người dùng cho ứng dụng (Cognito) và quản trị tập trung đa tài khoản (AWS Organizations).
-
-- Được giới thiệu kiến trúc mới, các mẹo làm việc và mindset làm việc của các anh chị đi trước.
-
-**3. Đánh giá chung và Định hướng**
-
-- **Đánh giá:** Tiếp tục giữ tiến độ và hoàn thiện phần bài học trong tuần. Tuy nhiên, có sự quá tải và phải lược bỏ một số bài lab thực hành (ngoài những bài được dặn không làm) do số lượng bài thực hành là quá nhiều.
-
-- **Định hướng (Rút kinh nghiệm):** Việc sắp xếp lịch học phần nào hơi dày đặc vào những ngày làm việc trong tuần đã gây ra áp lực về thời gian khi có việc đột xuất. Cần cân đối lại lịch học linh hoạt hơn.
+* **Kết quả chung:** Nghiên cứu kỹ tài liệu video hướng dẫn và triển khai thành công toàn bộ chuỗi các bài thực hành lab liên quan thuộc module 2 đúng theo tiến độ đề ra.
+* **Đánh giá tuần:** Hoàn thành tốt nhiệm vụ, bám sát các chỉ tiêu đặt ra và nắm vững nội dung kiến thức cốt lõi của module 2 thông qua việc thực hành.
+* **Chi tiết kết quả thực hiện:**
+ * **Ngày 04/05/2026:** Xem video hướng dẫn và hoàn thành bài thực hành lab liên quan đầu tiên của module 2.
+ * **Ngày 05/05/2026:** Tiếp tục nghiên cứu tài liệu và triển khai thành công bài thực hành lab tiếp theo của module 2.
+ * **Ngày 06/05/2026:** Thực hiện hoàn chỉnh bài thực hành lab thứ ba của module 2 dựa trên video hướng dẫn.
+ * **Ngày 07/05/2026:** Nghiên cứu video cuối cùng và hoàn thành toàn bộ các bài lab còn lại của module 2.
+ * **Ngày 08/05/2026:** Tổng hợp kết quả học tập trong tuần, viết worklog và nộp báo cáo tuần đúng hạn.

@@ -9,11 +9,11 @@ chapter: false
 
 ### Student Information:
 
-&emsp; **Full Name:** Le Quoc Anh
+&emsp; **Full Name:** Huynh Quoc Dai
 
-&emsp; **Phone Number:** 0764 424 003 
+&emsp; **Phone Number:** 0938164171
 
-&emsp; **Email:** lequocanh.work@gmail.com
+&emsp; **Email:** Windskyqd@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 17/04/2026 to 17/07/2026
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/images/avater.png)
 
 ### Report Content
 

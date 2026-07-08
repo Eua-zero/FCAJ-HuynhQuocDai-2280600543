@@ -1,127 +1,57 @@
 ---
-title: "FCAJ Community Day: Meet up"
-date: 2026-05-09
+title: "Event 1"
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch “FCAJ Community Day: Meet up”
+# BÀI THU HOẠCH: TỰ ĐỘNG HÓA CÔNG VIỆC VỚI TRỢ LÝ AI AMAZON Q VÀ MCP
+### I. Mục tiêu & Bối cảnh tổng quan
+Thông qua các sự kiện công nghệ (chủ đề về Amazon Q, giao thức MCP và Hội nghị cộng đồng FCAJ), tôi đã có cơ hội tiếp cận bức tranh toàn cảnh về cách AI đang tái định hình môi trường doanh nghiệp. Các nội dung không chỉ dừng lại ở bề nổi của các công cụ AI tạo sinh, mà còn đi sâu vào kiến trúc hệ thống, tư duy phát triển sản phẩm (product-driven) và các rào cản bảo mật khắt khe khi triển khai thực tế.
 
-### Mục Đích Của Sự Kiện
+### II. Điểm nhấn Công nghệ & Kỹ thuật
+### 1. Từ Single Agent đến Kiến trúc Multi-Agent
 
-- Khuyến khích các bạn trẻ tự tin chia sẻ kiến thức mới, rèn luyện kỹ năng thuyết trình và nâng cao thái độ tự tin trước đám đông.
-- Chia sẻ các phương pháp học tập hiệu quả, cách sử dụng Dopamine để biến việc học thành thói quen thú vị.
-- Nâng cao kỹ năng giao tiếp với AI thông qua Prompt Engineering và giới thiệu các công cụ hỗ trợ tự động hóa trong phát triển phần mềm.
-- Cung cấp góc nhìn thực tế từ doanh nghiệp về tư duy làm nghề, sự liêm chính và định hướng phát triển dài hạn cho Fresher.
+Các LLM hiện tại rất thông minh nhưng một Agent đơn lẻ sẽ bị giới hạn về Context Window và dễ quá tải trước các bài toán phức tạp.
 
-### Danh Sách Diễn Giả
+Giải pháp tối ưu là xây dựng hệ thống Multi-Agent (như mô hình Hội đồng tín dụng), trong đó chia nhỏ thành các Agent chuyên biệt (Phân tích tài chính, Đánh giá rủi ro, Điều phối...). Việc phân chia này giúp hệ thống xử lý song song và có khả năng phản biện chéo.
 
-- **Huỳnh Hoàng Long** - Admin of FCAJ
-- **Nguyễn Tuấn Thịnh** - DevOps/Cloud Engineer FCAJ
-- **Nguyễn Duy Khang** - Solution Architect of Cloud Kinetics
-- **Nguyễn Phương Thảo** - Application Cloud Dev of VIB, FCJ Ambassador
+### 2. Giao thức MCP và Khả năng Thực thi (Action)
 
-### Nội Dung Nổi Bật
+Công thức cốt lõi: Agent = LLM + Action/Function (MCP).
 
-#### Kỹ thuật giao tiếp với AI
+Giao thức Model Context Protocol (MCP) chính là chiếc cầu nối kỹ thuật cho phép AI vượt ra khỏi ranh giới chat hỏi-đáp thông thường, kết nối trực tiếp với các ứng dụng bên ngoài (Jira, Gmail, Teams) để tự động hóa các quy trình thô (như trực quan hóa dữ liệu, gửi email phân công sau cuộc họp).
 
-- Cần cung cấp **prompt rõ ràng** → AI không sinh ra kết quả kém chất lượng hoặc bị ảo giác (hallucination).
-- Cần viết **promp chi tiết**, tránh dùng các lệnh cấm đoán chung chung → thu nhỏ vùng và tập trung vào nội dung cần thiết.
+### 3. Kỹ nghệ Ngữ cảnh (Context Engineering)
 
-#### 7 thành phần của một Prompt chuẩn
+Việc "bơm" kiến thức cho AI không phải là nhồi nhét hàng trăm trang PDF thô. Thay vào đó, cần trích xuất những "tinh túy" nghiệp vụ từ chuyên gia (Knowledge Transfer) để tạo ra ngữ cảnh chuẩn mực, giúp LLM xử lý chính xác và giảm thiểu tính bất định (Hallucination/Inference optimization).
 
-- Các thành phần của 1 prompt chuẩn bao gồm:
-+ **Vai trò** 
-+ **Hướng dẫn** 
-+ **Ngữ cảnh** 
-+ **Đầu vào** 
-+ **Định dạng đầu ra** 
-+ **Ví dụ** 
-+ **Ràng buộc**
+### III. Tư duy Nghiệp vụ & Vận hành Doanh nghiệp (Enterprise-grade AI)
+### 1. Giải quyết bài toán bằng ROI (Return on Investment)
 
-#### Hiểu về Token và các kỹ thuật nâng cao
+Công nghệ chỉ là phương tiện. Bất kỳ giải pháp AI nào (dù tốn kém hàng tỷ đồng) đều phải trả lời được: Phục vụ ai? Tại sao phải dùng? và Lợi ích thu về là gì?
 
-- Ngôn ngữ khác nhau tốn lượng token khác nhau (tiếng Việt tốn gấp đôi tiếng Anh).
-- Nên tận dụng các **kỹ thuật tư duy** của AI như **Chain of Thought** (suy nghĩ từng bước) hoặc **Tree of Thought** để ra kết quả tốt nhất.
+"Numbers speak louder than words" - Mọi đề xuất công nghệ lên cấp quản lý đều phải được chứng minh bằng con số thực tế về mức độ hồi vốn thay vì những lời hứa hẹn.
 
-#### Kiến trúc dự án AWS thực tế
+### 2. Bảo mật và Trách nhiệm (Audit & Compliance)
 
-- Áp dụng hệ thống **Serverless** với các dịch vụ cốt lõi như CloudFront, S3 (lưu trữ frontend/data lake), Cognito (xác thực người dùng), API Gateway, Lambda (backend serverless không cần quản lý máy chủ), Bedrock (tích hợp AI Foundation Model) và DynamoDB.
+Trong môi trường doanh nghiệp (đặc biệt là tài chính), bảo mật là tối thượng. Việc cắm các công cụ ngoại vi phải được kiểm soát gắt gao.
 
-#### Tư duy và Định hướng
+Hệ thống cần thiết lập các rào chắn (Guardrails) kiểm tra Input/Output để chống Prompt Injection và quản lý chặt vòng đời API Key.
 
-- **Nền tảng là yếu tố bất biến**: Công cụ thay đổi mỗi ngày, nhưng thứ nhà tuyển dụng cần là quy trình tư duy và kiến thức nền tảng vững chắc để giải quyết vấn đề.
-- **AI là công cụ khuếch đại**: AI không thay thế tư duy. Nếu bạn làm tệ, AI làm bạn tệ hơn; nếu bạn làm tốt, AI giúp năng suất tăng x2, x10. Không bao giờ được "outsource" sự thấu hiểu của bản thân cho AI.
-- **Văn hóa đặt câu hỏi "Tại sao"**: Phải luôn tự chất vấn lý do đằng sau các quyết định chọn công nghệ hay viết code thay vì chỉ chăm chăm vào "làm cái gì".
+Con người là chốt chặn cuối cùng: Dù AI có tự hành đến đâu, người kỹ sư và người phê duyệt hệ thống vẫn là bên chịu trách nhiệm trước pháp luật về các quyết định được đưa ra (như duyệt khoản vay).
 
-#### Sự liêm chính và thái độ:
+### IV. Định hướng ứng dụng và Bài học cá nhân
+Vững nền tảng Software Engineering: AI không thay thế được các kiến thức cốt lõi (Backend, Database, Cloud Infrastructure, Security). Đây vẫn là yếu tố quyết định để đưa một project từ "chạy demo ở nhà" lên môi trường Production thực tế của ngân hàng/doanh nghiệp.
 
-- **Trong công việc**: Làm việc cần sự chính trực, chủ động đào sâu các trường hợp ngoại lệ (edge cases) dù không ai yêu cầu.
-- **Đối với nhà tuyển dụng**: Tiêu chí ưu tiên đối với Fresher là Thái độ, tiếp theo mới đến Trình độ/Học vấn, Kinh nghiệm và Tố chất.
+Thấu hiểu các bên liên quan (Stakeholders): Cần nắm rõ KPI của các phòng ban khác (Business, Security) để giao tiếp, xin cấp phép và phối hợp làm việc nhóm mượt mà hơn.
 
-### Những Gì Học Được
+Thực hành tự động hóa: Áp dụng Amazon Q và tùy biến các MCP Server để tự động hóa quy trình cá nhân. Khi thiết kế hệ thống, sẽ ưu tiên chia nhỏ logic theo hướng Multi-Agent cho các tác vụ phức tạp.
 
-#### Tư Duy Thiết Kế & Làm Việc
+### V. Trải nghiệm & Góc nhìn thực tế tại sự kiện
+Các phần chia sẻ thực chiến từ các diễn giả (như anh Hải An, chị Cát Vy...) thực sự đã khai mở tư duy của tôi về khoảng cách giữa lý thuyết và thực tiễn triển khai "Enterprise-grade AI". Được tận mắt quan sát luồng xử lý tự động của Amazon Q hay bóc tách kiến trúc phân tích tín dụng cho Startup giúp tôi nhận ra sự khắt khe, tính kỷ luật cũng như trách nhiệm nặng nề của một kỹ sư phần mềm hiện đại. Sự kiện cũng là cơ hội tuyệt vời để giao lưu, học hỏi từ những người đi trước.
 
-- **Foundation-first approach**: Luôn bắt đầu từ kiến thức nền tảng và quy trình tư duy thay vì chạy theo các service hay công cụ hào nhoáng.
-- **Văn hóa "Why"**: Đặt câu hỏi chất vấn lý do đằng sau mọi quyết định chọn công nghệ hay kiến trúc hệ thống, không chỉ dừng lại ở việc làm cho code chạy được.
-- **Sự liêm chính**: Tự giác quản lý và xử lý các trường hợp ngoại lệ dù không có trong yêu cầu gốc, thể hiện thái độ làm việc đường dài.
+Nhìn chung, chuỗi sự kiện không chỉ cung cấp những nền tảng kỹ thuật chuyên sâu mà còn giúp tôi thay đổi hoàn toàn cách tư duy: Từ việc chỉ tập trung viết code, sang việc thiết kế các giải pháp tự động hóa an toàn, đáng tin cậy và thực sự mang lại giá trị đo lường được cho doanh nghiệp.
 
-#### Kiến Trúc Kỹ Thuật
-
-- **Ultimate Prompt Engineering**: Nắm vững cấu trúc 7 thành phần (Role, Instruction, Context, Input, Output, Example, Constraint) để giao tiếp chuẩn xác với AI, giảm thiểu hallucination.
-- Sử dụng **Serverless Architecture** thay vì tự quản lý máy chủ bằng EC2.
-- **Integration patterns**: Tích hợp luồng dữ liệu mượt mà qua các dịch vụ như CloudFront, S3, Cognito, API Gateway, Lambda và DynamoDB để xây dựng hệ thống web thực tế.
-- **Advanced AI Reasoning**: Hiểu và sử dụng các kỹ thuật suy luận AI như Chain of Thought (suy nghĩ từng bước) hay Tree of Thought để tối ưu chất lượng đầu ra.
-
-#### Chiến Lược Phát Triển & Sử Dụng AI
-
-- **AI Amplification**: Coi AI là công cụ khuếch đại năng suất x2, x10, nhưng tuyệt đối không được giao phó tư duy cốt lõi của bản thân cho nó
-- **Phased approach cho sự nghiệp**: Nhìn nhận chặng đường dài hạn, sẵn sàng trải nghiệm và chấp nhận mắc sai lầm để trưởng thành nhanh hơn
-- **Định giá đa chiều**: Đánh giá giá trị công việc qua Kinh nghiệm , **Mạng lưới quan hệ , và Kiến thức  thay vì chỉ chăm chăm vào mức lương
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng Ultimate Prompting** cho project hiện tại: Đặt ngữ cảnh và chia nhỏ task để AI sinh code hoặc viết document chính xác, tránh hiện tượng chồng chéo thông tin.
-- **Refactor kiến trúc cloud**: Áp dụng thử nghiệm các dịch vụ Serverless (như AWS Lambda, API Gateway) để giảm thiểu effort quản lý hạ tầng cho các dự án nhỏ.
-- **Implement Integrity**: Chủ động vạch ra và xử lý thêm 20-30 edge cases thay vì chỉ đáp ứng 10 yêu cầu cốt lõi được giao.
-- **Thử dùng AI Extensions**: Cài đặt và sử dụng các AI extension (ví dụ: Promptizer) trực tiếp trên trình duyệt để tối ưu hóa prompt nhanh chóng, nâng cao năng suất hằng ngày.
-- **Xây dựng mạng lưới**: Tập trung làm việc nhóm và chủ động đặt câu hỏi nhiều hơn để rèn luyện kỹ năng trao đổi, không nên tự "đi một mình" trong dự án.
-
-### Trải nghiệm trong event
-
-Tham gia sự kiện **FCAJ Community Day** lần này là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách ứng dụng AI và xây dựng tư duy làm nghề vững chắc. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-
-- Các diễn giả (như anh Khang từ Cloud Kinetics) đã chia sẻ best practices trong tư duy làm việc, giúp tôi hiểu rằng doanh nghiệp cần "thought process" thay vì một người chỉ biết xài tool vô hồn.
-- Qua các chia sẻ thực tế, tôi hiểu rõ hơn cách nhà tuyển dụng đánh giá một Fresher: Thái độ luôn đặt lên hàng đầu, tiếp đến mới là Trình độ và Kinh nghiệm.
-
-#### Trải nghiệm kỹ thuật thực tế
-
-- Tham gia phiên chia sẻ của anh Thịnh giúp tôi hình dung cách thiết kế một kiến trúc Serverless thực tiễn, từ lưu trữ bằng S3 đến quản lý user bằng Cognito và xử lý logic bằng Lambda.
-- Học cách cấu trúc một prompt chuẩn chỉnh 7 thành phần và tránh hiện tượng ảo giác của AI bằng cách tách nhỏ ngữ cảnh.
-- Hiểu rõ trade-offs giữa Serverless (Lambda) và compute truyền thống (như EC2) khi bắt tay vào thiết kế backend.
-
-#### Ứng dụng công cụ hiện đại
-
-- Trực tiếp tìm hiểu về các AI extension trên trình duyệt, công cụ hỗ trợ tối ưu hóa và sinh prompt nhanh chóng.
-- Học cách **tự động hóa** **và boost productivity** thông qua việc tận dụng AI như một đòn bẩy khuếch đại năng lực mà vẫn giữ lại sự thấu hiểu cốt lõi.
-
-#### Kết nối và trao đổi
-
-- Sự kiện tạo cơ hội trao đổi cởi mở với cộng đồng, rèn luyện thái độ dạn dĩ khi chia sẻ kiến thức và xây dựng mạng lưới quan hệ (network)
-- Qua các câu chuyện được kể, tôi nhận ra tầm quan trọng của **foundation-first approach**, luôn bắt đầu từ kiến thức nền tảng thay vì chỉ tập trung đuổi theo các service mới
-
-#### Bài học rút ra
-
-- Việc áp dụng văn hóa "Why" và sự liêm chính giúp tôi tăng tính chủ động, khả năng giải quyết vấn đề sâu sắc khi đối mặt với các kiến trúc phần mềm thực tế
-- Định hướng sự nghiệp cần tầm nhìn dài hạn và ưu tiên việc trau dồi trải nghiệm, không nên vội vàng từ bỏ khi gặp những khó khăn ngắn hạn
-- Các công cụ AI có thể boost productivity lên rất cao nếu được sử dụng đúng cách, nhưng tuyệt đối không được để chúng thay thế tư duy phản biện của chính bản thân mình
-
-#### Một số hình ảnh khi tham gia sự kiện
-
-![Ảnh tham gia sự kiện](/images/event0905.jpg)
-
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![Hình ảnh tham gia sự kiện](/images/4-EventParticipated/event_1.jpg)
