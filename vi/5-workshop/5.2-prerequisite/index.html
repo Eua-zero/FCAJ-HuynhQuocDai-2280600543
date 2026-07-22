@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="vi" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.164.0">
+    <meta
+  name="description"
+  content=""
+/>
+<meta name="author" content="Huỳnh Quốc Đại" />
+
+    <link rel="icon" href="/FCAJ-HuynhQuocDai-2280600543/images/favicon.png" type="image/png">
+
+    <title>Chuẩn bị môi trường :: Báo cáo thực tập</title>
+
+    
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/nucleus.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/fontawesome-all.min.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/hybrid.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/featherlight.min.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/perfect-scrollbar.min.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/auto-complete.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/atom-one-dark-reasonable.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/theme.css?1784746834" rel="stylesheet">
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/hugo-theme.css?1784746834" rel="stylesheet">
+    
+    <link href="/FCAJ-HuynhQuocDai-2280600543/css/theme-workshop.css?1784746834" rel="stylesheet">
+    
+    
+
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/jquery-3.3.1.min.js?1784746834"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.2-prerequisite/">
+    <nav
+  id="sidebar"
+  class="showVisitedLinks"
+>
+   
+  <div id="header-wrapper">
+    <div id="header"><a id="logo" href="/workshop/">
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="30%"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>AWS-Logo_White-Color</title><path class="cls-1" d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"></path><path class="cls-2" d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"></path><path class="cls-2" d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"></path></svg>
+
+</a>
+</div>
+     <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/FCAJ-HuynhQuocDai-2280600543/js/lunr.min.js?1784746834"></script>
+<script type="text/javascript" src="/FCAJ-HuynhQuocDai-2280600543/js/auto-complete.js?1784746834"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/eua-zero.github.io\/FCAJ-HuynhQuocDai-2280600543\/\/vi";
+    
+</script>
+<script type="text/javascript" src="/FCAJ-HuynhQuocDai-2280600543/js/search.js?1784746834"></script>
+ 
+  </div>
+
+  <div class="highlightable">
+    <ul class="topics">
+               
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/"
+  title="Nhật ký công việc"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/">
+     <b> 1. </b> Nhật ký công việc 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.1-week1/"
+  title="Worklog Tuần 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.1-week1/">
+     <b> 1.1. </b> Worklog Tuần 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.2-week2/"
+  title="Worklog Tuần 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.2-week2/">
+     <b> 1.2. </b> Worklog Tuần 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.3-week3/"
+  title="Worklog Tuần 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.3-week3/">
+     <b> 1.3. </b> Worklog Tuần 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.4-week4/"
+  title="Worklog Tuần 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.4-week4/">
+     <b> 1.4. </b> Worklog Tuần 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.5-week5/"
+  title="Worklog Tuần 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.5-week5/">
+     <b> 1.5. </b> Worklog Tuần 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.6-week6/"
+  title="Worklog Tuần 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.6-week6/">
+     <b> 1.6. </b> Worklog Tuần 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.7-week7/"
+  title="Worklog Tuần 7"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.7-week7/">
+     <b> 1.7. </b> Worklog Tuần 7 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.8-week8/"
+  title="Worklog Tuần 8"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.8-week8/">
+     <b> 1.8. </b> Worklog Tuần 8 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.9-week9/"
+  title="Worklog Tuần 9"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.9-week9/">
+     <b> 1.9. </b> Worklog Tuần 9 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.10-week10/"
+  title="Worklog Tuần 10"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.10-week10/">
+     <b> 1.10. </b> Worklog Tuần 10 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.11-week11/"
+  title="Worklog Tuần 11"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.11-week11/">
+     <b> 1.11. </b> Worklog Tuần 11 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.12-week12/"
+  title="Worklog Tuần 12"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.12-week12/">
+     <b> 1.12 </b> Worklog Tuần 12 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/2-proposal/"
+  title="Bản đề xuất"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/2-proposal/">
+     <b> 2. </b> Bản đề xuất 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/"
+  title="Các events đã tham gia"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/">
+     <b> 4. </b> Các events đã tham gia 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/4.1-event1/"
+  title="Event 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/4.1-event1/">
+     <b> 4.1. </b> Event 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/4.2-event2/"
+  title="Event 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/4.2-event2/">
+     <b> 4.2. </b> Event 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/"
+  title="Các bài blogs đã dịch"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/">
+     <b> 3. </b> Các bài blogs đã dịch 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/3.1-blog1/"
+  title="Tự động hóa UI với Amazon Nova Act"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/3.1-blog1/">
+     <b> 3.2. </b> Tự động hóa UI với Amazon Nova Act 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/3.2-blog2/"
+  title="Xây dựng ứng dụng B2C an toàn với Amazon Cognito và Amazon Verified Permissions"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/3.2-blog2/">
+     <b> 3.2. </b> Xây dựng ứng dụng B2C an toàn với Amazon Cognito và Amazon Verified Permissions 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/3.3-blog3/"
+  title="Tạo Model 3D từ việc dùng AI để chuyển đổi hình 2D sang 3D Assets (AWS)"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/3.3-blog3/">
+     <b> 3.3. </b> Tạo Model 3D từ việc dùng AI để chuyển đổi hình 2D sang 3D Assets (AWS) 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/"
+  title="AI Assistant Workshop"
+  class="dd-item 
+        parent
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/">
+     <b> 5. </b> AI Assistant Workshop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.1-introduction/"
+  title="Giới thiệu"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.1-introduction/">
+     <b> 5.1. </b> Giới thiệu 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.2-prerequisite/"
+  title="Chuẩn bị môi trường"
+  class="dd-item 
+        
+        active
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.2-prerequisite/">
+     <b> 5.2. </b> Chuẩn bị môi trường 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.3-database/"
+  title="Thiết lập Cognito &amp; DynamoDB"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.3-database/">
+     <b> 5.3. </b> Thiết lập Cognito &amp; DynamoDB 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.4-backend/"
+  title="Thiết lập S3 &amp; Deploy Backend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.4-backend/">
+     <b> 5.4. </b> Thiết lập S3 &amp; Deploy Backend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.5-frontend/"
+  title="Deploy Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.5-frontend/">
+     <b> 5.5. </b> Deploy Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.6-domain/"
+  title="Custom Domain (Tùy chọn)"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.6-domain/">
+     <b> 5.6. </b> Custom Domain (Tùy chọn) 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.7-cicd/"
+  title="Thiết lập CI/CD tự động"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.7-cicd/">
+     <b> 5.7. </b> Thiết lập CI/CD tự động 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.8-unityapp/"
+  title="Cài đặt Unity App"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.8-unityapp/">
+     <b> 5.8. </b> Cài đặt Unity App 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.9-cleanup/"
+  title="Dọn dẹp tài nguyên"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.9-cleanup/">
+     <b> 5.9. </b> Dọn dẹp tài nguyên 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/6-self-evaluation/"
+  title="Tự đánh giá"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/6-self-evaluation/">
+     <b> 6. </b> Tự đánh giá 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/FCAJ-HuynhQuocDai-2280600543/vi/7-feedback/"
+  title="Chia sẻ, đóng góp ý kiến"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/FCAJ-HuynhQuocDai-2280600543/vi/7-feedback/">
+     <b> 7. </b> Chia sẻ, đóng góp ý kiến 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+    </ul>
+
+     
+    <section id="shortcuts">
+      <h3>
+        More
+      </h3>
+      <ul>
+        
+        <li>
+          <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"
+            ><i class='fab fa-facebook'></i> AWS Study Group</a
+          >
+        </li>
+        
+        <li>
+          <a class="padding" href="https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543"
+            ><i class='fab fa-github'></i> GitHub của tôi</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+     
+    <section id="prefooter">
+      <hr />
+      <ul>
+        
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+            <div class="select-style">
+              <select id="select-language" onchange="location = this.value;">
+                       
+                <option
+                  id="en"
+                  value="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/5-workshop/5.2-prerequisite/"
+                >
+                  English
+                </option>
+                            
+                <option
+                  id="vi"
+                  value="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.2-prerequisite/"
+                  selected
+                >
+                  Tiếng Việt
+                </option>
+                   
+              </select>
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="255px"
+                height="255px"
+                viewBox="0 0 255 255"
+                style="enable-background: new 0 0 255 255"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="arrow-drop-down">
+                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </li>
+         
+        <li>
+          <a class="padding" href="#" data-clear-history-toggle=""
+            ><i class="fas fa-history fa-fw"></i> Clear History</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+    
+    <section id="footer">
+<left>
+    <br>
+    <br>
+    <b>Last Updated</b><br>
+    <i>
+        <span id="lastUpdated" style="color:orange;"></span>
+    </i>
+
+    <script>
+        
+        const today = new Date();
+        
+        const formattedDate = today.toLocaleDateString('en-GB');
+        
+        document.getElementById('lastUpdated').textContent = formattedDate;
+    </script>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+
+    <i> <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud Journey </a> <br>
+
+    </i>
+</left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script></section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/Eua-zero/FCAJ-HuynhQuocDai-2280600543/edit/main/content/5-Workshop/5.2-Prerequisite/_index.vi.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/FCAJ-HuynhQuocDai-2280600543/vi/'>Báo cáo thực tập</a> > <a href='/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/'>AI Assistant Workshop</a> > Chuẩn bị môi trường
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+  <div class="wrapper"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Chuẩn bị môi trường
+            </h1>
+          
+
+        
+
+
+
+	<h4 id="tổng-quan">Tổng quan</h4>
+<p>Trước khi bắt đầu triển khai, bạn cần cài đặt các công cụ cần thiết và cấu hình quyền truy cập AWS.</p>
+<hr>
+<h4 id="yêu-cầu-phần-mềm">Yêu cầu phần mềm</h4>
+<p>Bạn cần cài đặt đầy đủ 3 công cụ sau theo thứ tự:</p>
+<table>
+	<thead>
+			<tr>
+					<th>#</th>
+					<th>Phần mềm</th>
+					<th>Phiên bản</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td><strong>Git</strong></td>
+					<td>2.x trở lên</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td><strong>Node.js</strong></td>
+					<td>2x.x</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td><strong>AWS CLI</strong></td>
+					<td>2.x</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h4 id="cài-đặt-git">Cài đặt Git</h4>
+<p>Tải installer tại: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<ul>
+<li><strong>Windows:</strong> Tải file <code>.exe</code> → chạy installer → giữ nguyên mặc định → Next đến Finish</li>
+<li><strong>macOS:</strong> Chạy <code>brew install git</code> (nếu có Homebrew) hoặc tải <code>.dmg</code> từ trang trên</li>
+<li><strong>Linux (Ubuntu/Debian):</strong> <code>sudo apt-get install git -y</code></li>
+</ul>
+<p>Kiểm tra:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Kết quả mong đợi: git version 2.x.x</span>
+</span></span></code></pre></div><hr>
+<h4 id="cài-đặt-nodejs-2xx">Cài đặt Node.js 2x.x</h4>
+<p>Tải installer tại: <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a></p>
+<ul>
+<li><strong>Windows:</strong> Tải file <code>.msi</code> → chạy installer → Next đến Finish (tích chọn &ldquo;Add to PATH&rdquo;)</li>
+<li><strong>macOS:</strong> Tải file <code>.pkg</code> → chạy installer</li>
+<li><strong>Linux:</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fsSL https://deb.nodesource.com/setup_2x.x | sudo -E bash -
+</span></span><span style="display:flex;"><span>sudo apt-get install -y nodejs
+</span></span></code></pre></div><p>Kiểm tra:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>node --version
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Kết quả mong đợi: v2x.x.x</span>
+</span></span><span style="display:flex;"><span>npm --version
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Kết quả mong đợi: 1x.x.x</span>
+</span></span></code></pre></div><hr>
+<h4 id="cài-đặt-aws-cli-v2">Cài đặt AWS CLI v2</h4>
+<p><strong>Windows:</strong></p>
+<ol>
+<li>Tải file MSI installer tại: <a href="https://awscli.amazonaws.com/AWSCLIV2.msi">https://awscli.amazonaws.com/AWSCLIV2.msi</a></li>
+<li>Chạy file <code>.msi</code> vừa tải về</li>
+<li>Nhấn <strong>Next</strong> → <strong>Next</strong> → <strong>Install</strong> → <strong>Finish</strong></li>
+<li>Mở lại <strong>Command Prompt</strong> hoặc <strong>PowerShell</strong> (cần mở lại để nhận PATH mới)</li>
+</ol>
+<p><strong>macOS:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl <span style="color:#e6db74">&#34;https://awscli.amazonaws.com/AWSCLIV2.pkg&#34;</span> -o <span style="color:#e6db74">&#34;AWSCLIV2.pkg&#34;</span>
+</span></span><span style="display:flex;"><span>sudo installer -pkg AWSCLIV2.pkg -target /
+</span></span></code></pre></div><p>Hoặc dùng Homebrew:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install awscli
+</span></span></code></pre></div><p><strong>Linux (Ubuntu/Debian):</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl <span style="color:#e6db74">&#34;https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip&#34;</span> -o <span style="color:#e6db74">&#34;awscliv2.zip&#34;</span>
+</span></span><span style="display:flex;"><span>unzip awscliv2.zip
+</span></span><span style="display:flex;"><span>sudo ./aws/install
+</span></span></code></pre></div><p><strong>Kiểm tra cài đặt thành công:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>aws --version
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Kết quả mong đợi: aws-cli/2.x.x Python/3.x.x ...</span>
+</span></span></code></pre></div><blockquote>
+<p>Tài liệu chính thức: <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html</a></p>
+</blockquote>
+<hr>
+<h4 id="kiểm-tra-tất-cả-công-cụ">Kiểm tra tất cả công cụ</h4>
+<p>Sau khi cài xong cả 3, chạy lệnh kiểm tra tổng hợp:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
+</span></span><span style="display:flex;"><span>node --version
+</span></span><span style="display:flex;"><span>npm --version
+</span></span><span style="display:flex;"><span>aws --version
+</span></span></code></pre></div><p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.1.png" alt="Kiểm tra phiên bản các công cụ"></p>
+<hr>
+<h4 id="tạo-iam-user-và-cấu-hình-aws-cli">Tạo IAM User và cấu hình AWS CLI</h4>
+<blockquote>
+<p><strong>Quan trọng:</strong> AWS CLI không bao giờ được dùng credentials của Root Account. Bạn phải tạo IAM User riêng trong AWS Console trước, sau đó mới dùng key của IAM User đó để đăng nhập CLI.</p>
+</blockquote>
+<blockquote>
+<p><strong>Yêu cầu:</strong> Cần có sẵn tài khoản AWS. Nếu chưa có, đăng ký miễn phí tại <a href="https://aws.amazon.com/free">https://aws.amazon.com/free</a></p>
+</blockquote>
+<hr>
+<h5 id="bước-1-đăng-nhập-aws-console-bằng-root-account">Bước 1: Đăng nhập AWS Console bằng Root Account</h5>
+<p>Truy cập <a href="https://console.aws.amazon.com">https://console.aws.amazon.com</a> và đăng nhập bằng email + mật khẩu Root Account.</p>
+<blockquote>
+<p>Đây là lần duy nhất bạn dùng Root Account. Sau khi tạo xong IAM User, hãy đăng xuất khỏi Root.</p>
+</blockquote>
+<hr>
+<h5 id="bước-2-tạo-iam-user-cho-deploy">Bước 2: Tạo IAM User cho Deploy</h5>
+<p><strong>Bước 2.1:</strong> Trong Console, tìm và mở dịch vụ <strong>IAM</strong></p>
+<blockquote>
+<p>Gõ &ldquo;IAM&rdquo; vào thanh tìm kiếm ở trên cùng rồi chọn kết quả đầu tiên</p>
+</blockquote>
+<blockquote>
+<p>Hoặc truy cập thẳng: <a href="https://console.aws.amazon.com/iam/home#/users">https://console.aws.amazon.com/iam/home#/users</a></p>
+</blockquote>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.2.png" alt="Tìm kiếm IAM trong Console"></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.3.png" alt="Trang IAM Console"></p>
+<p><strong>Bước 2.2:</strong> Trong menu bên trái, chọn <strong>Users</strong> → nhấn <strong>Create user</strong></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.4.png" alt="Danh sách Users"></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.5.png" alt="Nút Create user"></p>
+<p><strong>Bước 2.3:</strong> Điền thông tin user:</p>
+<ul>
+<li><strong>User name:</strong> <code>ai-assistant-deployer</code></li>
+<li>Nhấn <strong>Next</strong></li>
+</ul>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.6.png" alt="Điền tên user"></p>
+<p><strong>Bước 2.4:</strong> Thiết lập quyền — chọn <strong>Attach policies directly</strong></p>
+<p>Trong ô tìm kiếm, gõ <code>AdministratorAccess</code>, tích chọn policy đó rồi nhấn <strong>Next</strong></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.7.png" alt="Chọn policy AdministratorAccess"></p>
+<p><strong>Bước 2.5:</strong> Xem lại thông tin → nhấn <strong>Create user</strong></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.8.png" alt="Review và tạo user"></p>
+<hr>
+<h5 id="bước-3-tạo-access-key-cho-iam-user-vừa-tạo">Bước 3: Tạo Access Key cho IAM User vừa tạo</h5>
+<p><strong>Bước 3.1:</strong> Sau khi tạo xong, nhấn vào tên user <code>ai-assistant-deployer</code> để vào trang chi tiết</p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.9.png" alt="Chi tiết IAM User"></p>
+<p><strong>Bước 3.2:</strong> Chọn tab <strong>Security credentials</strong></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.10.png" alt="Tab Security credentials"></p>
+<p><strong>Bước 3.3:</strong> Cuộn xuống mục <strong>Access keys</strong> → nhấn <strong>Create access key</strong></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.11.png" alt="Mục Access keys"></p>
+<p><strong>Bước 3.4:</strong> Chọn use case <strong>Command Line Interface (CLI)</strong> → tích xác nhận ở dưới → nhấn <strong>Next</strong> → nhấn <strong>Create access key</strong></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.12.png" alt="Chọn CLI use case"></p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.13.png" alt="Xác nhận và tạo access key"></p>
+<p><strong>Bước 3.5:</strong> Màn hình hiển thị credentials — <strong>lưu lại ngay:</strong></p>
+<ul>
+<li><code>Access Key ID</code> (dạng: <code>AKIAIOSFODNN7EXAMPLE</code>)</li>
+<li><code>Secret Access Key</code> (dạng: <code>wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY</code>)</li>
+</ul>
+<p>Hoặc nhấn <strong>Download .csv file</strong> để tải về file chứa cả hai giá trị.</p>
+<blockquote>
+<p>Secret Access Key <strong>chỉ hiển thị một lần duy nhất</strong>. Nếu bỏ lỡ, phải xóa key cũ và tạo lại.</p>
+</blockquote>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.14.png" alt="Credentials được tạo thành công"></p>
+<hr>
+<h5 id="bước-4-cấu-hình-aws-cli-với-iam-user">Bước 4: Cấu hình AWS CLI với IAM User</h5>
+<p>Mở Terminal (PowerShell trên Windows, Terminal trên macOS/Linux) và chạy:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>aws configure
+</span></span></code></pre></div><p>Điền lần lượt theo từng dòng:</p>
+<pre tabindex="0"><code>AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: ap-southeast-1
+Default output format [None]: json
+</code></pre><blockquote>
+<p>Thông tin này được lưu tại <code>~/.aws/credentials</code> và <code>~/.aws/config</code> trên máy bạn.</p>
+</blockquote>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.15.png" alt="Cấu hình AWS CLI"></p>
+<hr>
+<h5 id="bước-5-xác-minh-đăng-nhập-thành-công">Bước 5: Xác minh đăng nhập thành công</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>aws sts get-caller-identity
+</span></span></code></pre></div><p>Kết quả mong đợi — phần <code>Arn</code> phải chứa tên IAM User, <strong>không phải root</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;UserId&#34;</span>: <span style="color:#e6db74">&#34;AIDAXXXXXXXXXXXXXXXXX&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Account&#34;</span>: <span style="color:#e6db74">&#34;123456789012&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;Arn&#34;</span>: <span style="color:#e6db74">&#34;arn:aws:iam::123456789012:user/ai-assistant-deployer&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Nếu thấy <code>user/ai-assistant-deployer</code> trong Arn → cấu hình đúng, sẵn sàng deploy.</p>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.16.png" alt="Xác minh đăng nhập thành công"></p>
+<hr>
+<h4 id="clone-repository">Clone repository</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/LeQu0cAnh/PetWebAWSProject.git
+</span></span><span style="display:flex;"><span>cd PetWebAWSProject
+</span></span></code></pre></div><p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.17.png" alt="Clone repository"></p>
+<hr>
+<h4 id="cài-đặt-serverless-framework">Cài đặt Serverless Framework</h4>
+<p>Serverless Framework giúp deploy Lambda và API Gateway chỉ với một lệnh duy nhất.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -g serverless@3
+</span></span><span style="display:flex;"><span>serverless --version
+</span></span></code></pre></div><p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.18.png" alt="Cài đặt Serverless Framework thành công"></p>
+<blockquote>
+<p>Trên macOS/Linux nếu gặp lỗi quyền: <code>sudo npm install -g serverless@3</code></p>
+</blockquote>
+<hr>
+<h4 id="bảo-mật-nền-tảng-amazon-guardduty--aws-config">Bảo mật nền tảng (Amazon GuardDuty &amp; AWS Config)</h4>
+<p>Để đảm bảo tài khoản AWS được bảo mật và giám sát liên tục trước các hành vi bất thường, hãy kích hoạt <strong>Amazon GuardDuty</strong> và <strong>AWS Config</strong>.</p>
+<h5 id="1-kích-hoạt-amazon-guardduty-phát-hiện-mối-đe-dọa">1. Kích hoạt Amazon GuardDuty (Phát hiện mối đe dọa)</h5>
+<p>Amazon GuardDuty liên tục giám sát các hành vi đáng ngờ (ví dụ: đăng nhập lạ, tấn công mạng, đào tiền ảo trái phép) dựa trên log của tài khoản.</p>
+<p><strong>CLI:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>aws guardduty create-detector --enable --region ap-southeast-1
+</span></span></code></pre></div><p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.19.png" alt="Kích hoạt GuardDuty qua CLI"></p>
+<p><strong>Console:</strong></p>
+<ol>
+<li>Tìm kiếm và mở dịch vụ <strong>GuardDuty</strong> trong AWS Web Console.</li>
+<li>Nhấn nút <strong>Get started</strong> -&gt; chọn <strong>Enable GuardDuty</strong>.</li>
+</ol>
+<p><img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.20.png" alt="Kích hoạt GuardDuty qua Console Step 1">
+<img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.21.png" alt="Kích hoạt GuardDuty qua Console Step 2"></p>
+<h5 id="2-thiết-lập-aws-config-giám-sát-cấu-hình-tài-nguyên">2. Thiết lập AWS Config (Giám sát cấu hình tài nguyên)</h5>
+<p>AWS Config theo dõi toàn bộ lịch sử thay đổi cấu hình tài nguyên AWS và so sánh với các chính sách bảo mật.</p>
+<p><strong>Console:</strong></p>
+<ol>
+<li>Tìm kiếm dịch vụ <strong>AWSConfig</strong> -&gt; chọn <strong>1-click setup</strong>.
+<img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.22.png" alt="Thiết lập AWS Config Step 1"></li>
+<li>Nhấn <strong>Confirm</strong> để hoàn tất.
+<img src="/FCAJ-HuynhQuocDai-2280600543/images/5-Workshop/5.2-Prerequisite/5.2.23.png" alt="Thiết lập AWS Config Step 2"></li>
+</ol>
+<hr>
+<p>Sau khi hoàn thành bước này, bạn đã sẵn sàng để bắt đầu thiết lập các dịch vụ AWS.</p>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.1-introduction/" title="Giới thiệu"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/FCAJ-HuynhQuocDai-2280600543/vi/5-workshop/5.3-database/" title="Thiết lập Cognito &amp; DynamoDB" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/clipboard.min.js?1784746834"></script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/perfect-scrollbar.min.js?1784746834"></script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/perfect-scrollbar.jquery.min.js?1784746834"></script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/jquery.sticky.js?1784746834"></script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/featherlight.min.js?1784746834"></script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/highlight.pack.js?1784746834"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/modernizr.custom-3.6.0.js?1784746834"></script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/learn.js?1784746834"></script>
+    <script src="/FCAJ-HuynhQuocDai-2280600543/js/hugo-learn.js?1784746834"></script>
+
+    <link href="/FCAJ-HuynhQuocDai-2280600543/mermaid/mermaid.css?1784746834" rel="stylesheet" />
+    <script src="/FCAJ-HuynhQuocDai-2280600543/mermaid/mermaid.js?1784746834"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    ((i[r] =
+      i[r] ||
+      function () {
+        (i[r].q = i[r].q || []).push(arguments);
+      }),
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    "script",
+    "https://www.google-analytics.com/analytics.js",
+    "ga",
+  );
+
+  ga("create", "UA-158079754-2", "auto");
+  ga("send", "pageview");
+</script>
+
+  </body>
+</html>
