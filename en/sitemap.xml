@@ -145,19 +145,6 @@
                 href="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/vi/1-worklog/1.2-week2/"
                 />
   </url><url>
-    <loc>https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/4-eventparticipated/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/4-eventparticipated/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/"
-                />
-  </url><url>
     <loc>https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/5-workshop/5.3-database/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -208,6 +195,19 @@
                 rel="alternate"
                 hreflang="vi"
                 href="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/vi/3-blogstranslated/"
+                />
+  </url><url>
+    <loc>https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/4-eventparticipated/</loc>
+    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/4-eventparticipated/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/vi/4-eventparticipated/"
                 />
   </url><url>
     <loc>https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543/5-workshop/5.4-backend/</loc>
