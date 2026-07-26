@@ -72,7 +72,7 @@ Along with that came wonderful gifts and truly amazing moments.
 &emsp;**Brief description of the main content and activities at the event:**
 
 - Participated in an inspiring sharing session narrating the journey of the winning teams from the largest Agentic AI Buildathon in the ASEAN region.
-- Explored and analyzed the practical architectures of 5 prominent projects (OneTeam, Signal Scout, Blank, 3KA, Six Pillar) in transforming ideas into Minimum Viable Products (MVPs) in just 24 hours.
+- Explored and analyzed the practical architectures of 5 prominent projects (OneTeam, Signal Scout, Plan V, 3KA, Six Pillar) in transforming ideas into Minimum Viable Products (MVPs) in just 24 hours.
 - Learned how to apply advanced technologies such as Amazon Bedrock AgentCore, Computer Vision (YOLO), and Infrastructure as Code (IaC) automation to directly solve enterprise business problems.
 - Approached "Enterprise-grade AI" operational standards through optimizing cloud infrastructure costs (ROI), establishing financial security guardrails (KMS, GuardDuty), and moderation methods via Human-in-the-loop.
 - Listened to real-life stories about time pressure, technical incidents, and how the competing teams overcame multi-language barriers and managed personal egos for effective teamwork.

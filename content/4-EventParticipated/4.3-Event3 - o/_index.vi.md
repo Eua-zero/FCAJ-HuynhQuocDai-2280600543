@@ -1,12 +1,12 @@
 ---
-title: "Event 3"
+title: "Event 3-online"
 date: 2026-06-20
 weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# BÀI THU HOẠCH: FCAJ - TUẦN LỄ XÂY DỰNG ĐẠI LÝ AI 
+# BÀI THU HOẠCH: Tuần lễ Phát triển Hệ thống AI Tác tử 
 
 ### I. Mục tiêu & Bối cảnh tổng quan
 Vào sáng ngày 25/07/2026, tôi đã tham dự sự kiện **"FCAJ - Agentic AI Build Week"** tại Tầng 26, Tòa nhà Tài chính Bitexco. Đây không phải là hiện trường thi đấu, mà là một buổi sự kiện chia sẻ (sharing session) đầy cảm hứng nhằm tường thuật lại hành trình của những đội chiến thắng trong cuộc thi Buildathon về Agentic AI lớn nhất khu vực ASEAN. 
@@ -24,11 +24,11 @@ Qua các bài thuyết trình tại sự kiện, tôi đã học hỏi được 
 - **Bài toán:** Giúp các nhóm chiến lược công ty thu thập thông tin phân mảnh từ đối thủ, xâu chuỗi thành phân tích trực quan.
 - **Kỹ thuật:** Sử dụng công cụ TinyFish để vượt qua lớp tường đăng nhập (login wall) nhằm lấy dữ liệu báo cáo nội bộ, sau đó xuất ra Dashboard kèm theo bằng chứng cụ thể để hỗ trợ ra quyết định.
 
-**3. Đội Blank - Dự án SA Professional AI Native App**
+**3. Đội Plan V - Dự án SA Professional AI Native App**
 - **Bài toán:** Tự động hóa công việc cho Kiến trúc sư giải pháp (Solution Architect).
 - **Kỹ thuật:** Đọc tài liệu yêu cầu (BRD/PRD) bằng ngôn ngữ tự nhiên, tự động vẽ sơ đồ đám mây trên Draw.io, bóc tách chi phí, sinh mã nguồn hạ tầng Terraform (IaC) và triển khai (deploy) thẳng lên AWS. Hệ thống tích hợp strict typing để kiểm soát AI không dùng các dịch vụ cấm.
 
-**4. Đội 3K (3KA) - Dự án S.H.E.P.H.E.R.D**
+**4. Đội 3K - Dự án S.H.E.P.H.E.R.D**
 - **Bài toán:** Hệ thống đánh giá, phát hiện rủi ro và điều phối luồng người thông minh tại sân bay, siêu thị.
 - **Kỹ thuật:** Ứng dụng thị giác máy tính (YOLO, ByteTrack) kết hợp video trực tiếp (Kinesis Video Streams). Bedrock AgentCore liên tục tính toán mật độ, dự báo ùn tắc và đưa ra cảnh báo chủ động cho nhân viên.
 

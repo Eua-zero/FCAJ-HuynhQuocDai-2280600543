@@ -16,7 +16,7 @@ Cùng với đó là những món quà và những khoảnh khắc rất tuyệt
 
 &emsp;**Thời gian:** 09:00 ngày 23/05/2026
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh (Online)
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
@@ -59,7 +59,7 @@ emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự ki�
 - **Tư duy phát triển:** Thay đổi tư duy thiết kế hệ thống từ "chạy theo công nghệ" sang "Customer-Centric" (đề cao sự thoải mái của người dùng) và đánh giá bằng lợi ích thực tế (ROI). Thấm nhuần nguyên tắc "Human-in-the-loop" – con người luôn là người đưa ra quyết định phê duyệt cuối cùng.
 - **Ứng dụng thực tế và Kỹ năng mềm:** Có khả năng và định hướng tự triển khai các mô hình Voice bot tiếng Việt độ trễ thấp; biết cách ứng dụng Amazon Q vào việc rà soát CV/log hệ thống; và ý thức thắt chặt bảo mật VPC cho mọi luồng kết nối API từ LLM ra bên ngoài Internet.
 
-### [FCAJ - TUẦN LỄ XÂY DỰNG ĐẠI LÝ AI](4.3-Event3-online/)
+### [FCAJ - Tuần lễ Phát triển Hệ thống AI Tác tử](4.3-Event3-online/)
 
 &emsp;**Tên sự kiện:** FCAJ - AGENTIC AI BUILD WEEK
 
@@ -72,7 +72,7 @@ emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự ki�
 &emsp;**Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện:**
 
 - Tham gia buổi chia sẻ tường thuật (sharing session) đầy cảm hứng từ các đội chiến thắng tại cuộc thi Buildathon về Agentic AI lớn nhất khu vực ASEAN.
-- Khám phá và phân tích kiến trúc thực chiến của 5 dự án tiêu biểu (OneTeam, Signal Scout, Blank, 3KA, Six Pillar) trong việc chuyển đổi ý tưởng thành sản phẩm khả thi tối thiểu (MVP) chỉ trong 24 giờ.
+- Khám phá và phân tích kiến trúc thực chiến của 5 dự án tiêu biểu (OneTeam, Signal Scout, Plan V, 3KA, Six Pillar) trong việc chuyển đổi ý tưởng thành sản phẩm khả thi tối thiểu (MVP) chỉ trong 24 giờ.
 - Tìm hiểu cách ứng dụng các công nghệ tiên tiến như Amazon Bedrock AgentCore, Computer Vision (YOLO) và tự động hóa mã hạ tầng (IaC) để giải quyết trực tiếp các bài toán nghiệp vụ doanh nghiệp.
 - Tiếp cận tiêu chuẩn vận hành "Enterprise-grade AI" thông qua cách tối ưu chi phí hạ tầng đám mây (ROI), thiết lập hàng rào bảo mật tài chính (KMS, GuardDuty) và phương pháp kiểm duyệt bằng con người (Human-in-the-loop).
 - Lắng nghe những câu chuyện thực tế về áp lực thời gian, sự cố kỹ thuật, và cách các đội thi vượt qua rào cản đa ngôn ngữ, quản lý "cái tôi" để làm việc nhóm hiệu quả.

@@ -1,5 +1,5 @@
 ---
-title: "Event 3"
+title: "Event 3-online"
 date: 2026-06-20
 weight: 3
 chapter: false
@@ -24,7 +24,7 @@ Through the presentations at the event, I learned about 5 incredible practical a
 - **Problem:** Helps corporate strategy teams gather fragmented information from competitors and chain it into visual analysis.
 - **Technology:** Used the TinyFish tool to bypass login walls to retrieve internal report data, then outputted it to a Dashboard along with specific evidence to support decision-making.
 
-**3. Team Blank - SA Professional AI Native App Project**
+**3. Team Plan V - SA Professional AI Native App Project**
 - **Problem:** Automating tasks for Solution Architects.
 - **Technology:** Reads requirement documents (BRD/PRD) in natural language, automatically draws cloud diagrams on Draw.io, extracts cost estimates, generates Terraform infrastructure code (IaC), and deploys directly to AWS. The system integrates strict typing to control the AI from using prohibited services.
 
