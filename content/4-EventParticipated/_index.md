@@ -1,7 +1,7 @@
 ---
 title: "Events Participated"
 date: 2026-07-08
-weight: 3
+weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
@@ -10,7 +10,7 @@ During my internship, I participated in 2 events.
 Each event was a memorable experience filled with new, fascinating, and valuable knowledge.
 Along with that came wonderful gifts and truly amazing moments.
 
-### [Event 1](4.1-Event1/)
+### [TASK AUTOMATION WITH AMAZON Q AI ASSISTANT AND MCP](4.1-Event1/)
 
 &emsp;**Event Name:** FCAJ Community Day: Conference Call
 
@@ -35,7 +35,7 @@ Along with that came wonderful gifts and truly amazing moments.
 - **Practical Application and Soft Skills:** Shifted my mindset from "merely writing code" to designing safe, reliable automated solutions. Recognized the vital importance of foundational Software Engineering, how to grasp stakeholders' KPIs (Business, Security), and the direction to apply Amazon Q/MCP to optimize personal workflows.
 
 
-### [Event 2](4.2-Event2/)
+### [FCAJ COMMUNITY DAY - AI RISEN & BUILDING LARGE-SCALE VOICE AGENTS](4.2-Event2/)
 
 &emsp;**Event Name:** FCAJ Community Day: Data Driven, AI Risen
 
@@ -58,3 +58,27 @@ Along with that came wonderful gifts and truly amazing moments.
 - **Technical Knowledge:** Mastered the STT-LLM-TTS pipeline structure for Voice AI and how to integrate function calls (Tool Calling). Thoroughly understood secure internal connection methods when an LLM triggers external tools via the Model Context Protocol (MCP).
 - **Development Mindset:** Transformed my system design mindset from "running after technology" to a "Customer-Centric" approach (prioritizing user comfort) and evaluating success through tangible metrics (ROI). Imbued the "Human-in-the-loop" principle – humans always make the final approval decisions.
 - **Practical Application and Soft Skills:** Acquired the capability and direction to independently deploy low-latency Vietnamese Voice bots; learned how to utilize Amazon Q or equivalent AI platforms to automate CV screening and system log troubleshooting; and committed to tightening VPC security audits for all API connections established from the LLM to external environments.
+
+### [FCAJ - AGENTIC AI BUILD WEEK](4.3-Event3-online/)
+
+&emsp;**Event Name:** FCAJ - AGENTIC AI BUILD WEEK
+
+&emsp;**Time:** 09:00 AM, July 25, 2026
+
+&emsp;**Location:** 26th Floor, Bitexco Financial Tower, No. 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City (online)
+
+&emsp;**Role in the event:** Attendee
+
+&emsp;**Brief description of the main content and activities at the event:**
+
+- Participated in an inspiring sharing session narrating the journey of the winning teams from the largest Agentic AI Buildathon in the ASEAN region.
+- Explored and analyzed the practical architectures of 5 prominent projects (OneTeam, Signal Scout, Blank, 3KA, Six Pillar) in transforming ideas into Minimum Viable Products (MVPs) in just 24 hours.
+- Learned how to apply advanced technologies such as Amazon Bedrock AgentCore, Computer Vision (YOLO), and Infrastructure as Code (IaC) automation to directly solve enterprise business problems.
+- Approached "Enterprise-grade AI" operational standards through optimizing cloud infrastructure costs (ROI), establishing financial security guardrails (KMS, GuardDuty), and moderation methods via Human-in-the-loop.
+- Listened to real-life stories about time pressure, technical incidents, and how the competing teams overcame multi-language barriers and managed personal egos for effective teamwork.
+
+&emsp;**Results or values achieved:**
+
+- **Technical knowledge:** Mastered how to integrate Agentic AI into real-world processing workflows (such as Anti-Money Laundering (AML) systems, multi-channel ordering assistants) and optimize Cloud infrastructure (reducing costs to $0.006/order). Understood the architecture for automated data collection and generating Terraform code from natural language.
+- **Development mindset:** Absorbed the product development philosophy: "Small, finished work beats big, broken ideas". Deeply recognized that technology must closely address market "pain points", maintain transparent operational costs, and strictly adhere to security principles.
+- **Practical application and Soft skills:** Learned Scope Management skills under high pressure and the spirit of daring to venture out ("Just sign up"). Practiced lowering personal egos and transparently dividing work within a diverse group, while expanding the professional network (Networking) with top-tier developers and mentors in the industry.

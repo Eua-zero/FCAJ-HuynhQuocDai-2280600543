@@ -6,7 +6,8 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# BÀI THU HOẠCH TỔNG HỢP: FCAJ COMMUNITY DAY - AI RISEN & XÂY DỰNG VOICE AGENT QUY MÔ LỚN
+# BÀI THU HOẠCH: FCAJ COMMUNITY DAY - AI RISEN & XÂY DỰNG VOICE AGENT QUY MÔ LỚN
+
 ### I. Mục tiêu & Bối cảnh sự kiện
 Thông qua chuỗi sự kiện, các chuyên gia đã mang đến một góc nhìn thực tiễn và chuyên sâu về sự dịch chuyển của thị trường công nghệ trong kỷ nguyên AI. Trọng tâm không chỉ nằm ở bề nổi của các công cụ, mà đi sâu vào giải quyết các bài toán vận hành thực tế tại doanh nghiệp thông qua hệ thống Multi-Agent, DevOps AI Agent, tự động hóa quy trình HR và đặc biệt là kiến trúc Voice AI dành riêng cho thị trường tiếng Việt.
 

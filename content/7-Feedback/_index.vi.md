@@ -12,7 +12,7 @@ pre: " <b> 7. </b> "
 Môi trường làm việc mới lạ mang lại một cảm giác chuyên nghiệp, nghiêm túc nhưng cũng không kém phần thân thiện. Thời gian làm việc phân bổ hợp lý, kết hợp giữa việc làm và nghỉ ngơi khiến em luôn làm việc với mức năng suất tốt nhất. Các buổi sự kiện, giao lưu được tổ chức bài bản, mang lại những cảm giác tích cực và sôi động đi kèm với vô số kiến thức quý giá được truyền tải không hề gượng gạo hay ép buộc.
 
 **2. Sự hỗ trợ của mentor / team admin**  
-CCác anh chị luôn mang lại cảm giác thân thiện, tích cực và sẵn lòng hỗ trợ khi cần. Các anh chị luôn tích cực truyền tải kiến thức, kinh nghiệm, nhưng không theo kiểu "dọn sẵn" mà luôn hướng dẫn một cách từ tốn, tạo cơ sở để chúng em tự đào sâu vấn đề và tìm ra giải pháp thực sự của chính mình. Trong suốt quá trình đó, các anh chị luôn kiên nhẫn và sẵn sàng đồng hành cùng chúng em bất cứ lúc nào
+Các anh chị luôn mang lại cảm giác thân thiện, tích cực và sẵn lòng hỗ trợ khi cần. Các anh chị luôn tích cực truyền tải kiến thức, kinh nghiệm, nhưng không theo kiểu "dọn sẵn" mà luôn hướng dẫn một cách từ tốn, tạo cơ sở để chúng em tự đào sâu vấn đề và tìm ra giải pháp thực sự của chính mình. Trong suốt quá trình đó, các anh chị luôn kiên nhẫn và sẵn sàng đồng hành cùng chúng em bất cứ lúc nào.
 
 **3. Sự phù hợp giữa công việc và chuyên ngành học**  
 Công việc và dự án được giao hoàn toàn phù hợp với những kiến thức em đã được học tại trường. Đồng thời, đây cũng là dịp để em tiếp cận với những trải nghiệm thực tế và mảng kiến thức mới mẻ. Đây thực sự là bệ phóng tuyệt vời giúp em tích lũy thêm hành trang vững chắc cho sự nghiệp tương lai của mình.
@@ -29,10 +29,10 @@ Chính sách đãi ngộ dồi dào và hoàn toàn phù hợp với công sức
 ### Một số câu hỏi khác
 
 - Điều bạn **hài lòng nhất** trong thời gian thực tập?
-    To experience a professional, serious, and highly disciplined working environment. To be exposed to the knowledge, experience, and insights from predecessors.
+    Trải nghiệm một môi trường làm việc chuyên nghiệp, nghiêm túc và có tính kỷ luật cao. Được tiếp xúc với kiến thức, kinh nghiệm và góc nhìn từ những người đi trước.
 
 - Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?
-    The number of registered interns is too large, leading to relative difficulty in getting approved to go to the office, which can disrupt the feeling of being highly motivated, and then a long series of days off causes the inspiration to decline rapidly.
+    Số lượng thực tập sinh đăng ký quá lớn dẫn đến việc tương đối khó khăn để được duyệt lên văn phòng, điều này có thể làm gián đoạn động lực làm việc đang lên cao, và những chuỗi ngày không được lên văn phòng kéo dài sau đó khiến cảm hứng suy giảm nhanh chóng.
 
 - Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?
-    If that friend has a need for an internship related to cloud, this will be a good development environment for them to build a solid cloud foundation and learn countless experiences from predecessors.
+    Nếu bạn đó có nhu cầu thực tập liên quan đến mảng cloud, đây sẽ là một môi trường phát triển rất tốt để bạn ấy xây dựng một nền tảng cloud vững chắc và học hỏi được vô số kinh nghiệm từ những người đi trước.

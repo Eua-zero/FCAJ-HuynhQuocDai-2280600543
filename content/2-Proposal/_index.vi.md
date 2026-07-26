@@ -169,5 +169,5 @@ Hệ thống AI Assistant sử dụng kiến trúc Serverless tích hợp đầy
 ### 8. Mã nguồn và link demo
 
 *   **Mã nguồn dự án (GitHub):** [https://github.com/LeQu0cAnh/PetWebAWSProject](https://github.com/LeQu0cAnh/PetWebAWSProject)
-*   **Trang tài liệu Workshop (GitHub Pages):** [https://locle1010.github.io/workshop/](https://locle1010.github.io/workshop/)
+*   **Trang tài liệu Workshop (GitHub Pages):** [https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543](https://eua-zero.github.io/FCAJ-HuynhQuocDai-2280600543)
 *   **Link Demo ứng dụng (Web):** [https://aa.locle1010.dpdns.org](https://aa.locle1010.dpdns.org)

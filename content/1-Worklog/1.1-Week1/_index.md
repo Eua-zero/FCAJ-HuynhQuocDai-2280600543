@@ -15,11 +15,11 @@ pre: " <b> 1.1. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Materials |
 |:---:|:------------------------------------------------------------------------------------------------------------:|:------------:|:---------------:|:--------------------------------------------------------------------------------------------:|
-| Mon | Create an AWS account and review the spending plan.                                                          | 2026/04/20   | 2026/04/20      | <https://000001.awsstudygroup.com/>                                                          |
-| Tue | Perform tasks to earn enough 200 credits.                                                                    | 2026/04/21   | 2026/04/21      | https://000001.awsstudygroup.com/3-chi%E1%BA%BFn-l%C6%B0%E1%BB%A3c-nh%E1%BA%ADn-%C4%91%E1%BB%A7-200-credit/|
-| Wed | Watch YouTube videos about module 1 to prepare relevant knowledge.                                           | 2026/04/22   | 2026/04/22      | https://www.youtube.com/watch?v=HxYZAK1coOI&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=4 |
-| Thu | Perform related lab practices of module 1.                                                                   | 2026/04/23   | 2026/04/23      | https://www.youtube.com/watch?v=waR5S_lljrk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=11 |
-| Fri | Write worklog and report.                                                                                    | 2026/04/24   | 2026/04/24      |                                                                                              |
+| Mon | Create an AWS account and review the spending plan.                                                          | 20/04/2026   | 20/04/2026      | <https://000001.awsstudygroup.com/>                                                          |
+| Tue | Perform tasks to earn enough 200 credits.                                                                    | 21/04/2026   | 21/04/2026      | https://000001.awsstudygroup.com/3-chi%E1%BA%BFn-l%C6%B0%E1%BB%A3c-nh%E1%BA%ADn-%C4%91%E1%BB%A7-200-credit/|
+| Wed | Watch YouTube videos about module 1 to prepare relevant knowledge.                                           | 22/04/2026   | 22/04/2026      | https://www.youtube.com/watch?v=HxYZAK1coOI&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=4 |
+| Thu | Perform related lab practices of module 1.                                                                   | 23/04/2026   | 23/04/2026      | https://www.youtube.com/watch?v=waR5S_lljrk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=11 |
+| Fri | Write worklog and report.                                                                                    | 24/04/2026   | 24/04/2026      |                                                                                              |
 
 ### Results achieved in week 1:
 

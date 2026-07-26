@@ -7,6 +7,7 @@ pre: " <b> 4.1. </b> "
 ---
 
 # BÀI THU HOẠCH: TỰ ĐỘNG HÓA CÔNG VIỆC VỚI TRỢ LÝ AI AMAZON Q VÀ MCP
+
 ### I. Mục tiêu & Bối cảnh tổng quan
 Thông qua các sự kiện công nghệ (chủ đề về Amazon Q, giao thức MCP và Hội nghị cộng đồng FCAJ), tôi đã có cơ hội tiếp cận bức tranh toàn cảnh về cách AI đang tái định hình môi trường doanh nghiệp. Các nội dung không chỉ dừng lại ở bề nổi của các công cụ AI tạo sinh, mà còn đi sâu vào kiến trúc hệ thống, tư duy phát triển sản phẩm (product-driven) và các rào cản bảo mật khắt khe khi triển khai thực tế.
 

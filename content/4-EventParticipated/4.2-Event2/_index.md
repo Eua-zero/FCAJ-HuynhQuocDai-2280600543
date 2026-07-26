@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# COMBINED EVENT REPORT: FCAJ COMMUNITY DAY - AI RISEN & BUILDING LARGE-SCALE VOICE AGENTS
+# EVENT REPORT: FCAJ COMMUNITY DAY - AI RISEN & BUILDING LARGE-SCALE VOICE AGENTS
 
 ### I. Objectives & General Context
 Through this series of events, experts delivered a practical and in-depth perspective on the shifting landscape of the technology market in the AI era. The core focus went beyond the surface level of tools, diving deep into solving real-world corporate operational challenges through Multi-Agent systems, DevOps AI Agents, HR workflow automation, and specifically, Voice AI architecture customized for the Vietnamese market.

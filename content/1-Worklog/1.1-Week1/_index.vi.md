@@ -15,11 +15,11 @@ pre: " <b> 1.1. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 |:---:|:------------------------------------------------------------------------------------------------------------:|:------------:|:---------------:|:--------------------------------------------------------------------------------------------:|
-| 2   | Tạo tài khoản AWS và xem xét về kế hoạch chi tiêu.                                                            | 2026/04/20   | 2026/04/20      | <https://000001.awsstudygroup.com/>                                                          |
-| 3   | Thực hiện các nhiệm vụ để kiếm đủ 200 credit.                                                                | 2026/04/21   | 2026/04/21      | https://000001.awsstudygroup.com/3-chi%E1%BA%BFn-l%C6%B0%E1%BB%A3c-nh%E1%BA%ADn-%C4%91%E1%BB%A7-200-credit/|
-| 4   | Xem youtube về module 1 để chuẩn bị kiến thức liên quan.                                                     | 2026/04/22   | 2026/04/22      | https://www.youtube.com/watch?v=HxYZAK1coOI&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=4 |
-| 5   | Thực hiện các bài thực hành lab liên quan của module 1.                                                      | 2026/04/23   | 2026/04/23      | https://www.youtube.com/watch?v=waR5S_lljrk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=11 |
-| 6   | Viết worklog và báo cáo                                                                                      | 2026/04/24   | 2026/04/24      |                                                                                              |
+| 2   | Tạo tài khoản AWS và xem xét về kế hoạch chi tiêu.                                                           | 20/04/2026   | 20/04/2026      | <https://000001.awsstudygroup.com/>                                                          |
+| 3   | Thực hiện các nhiệm vụ để kiếm đủ 200 credit.                                                                | 21/04/2026   | 21/04/2026      | https://000001.awsstudygroup.com/3-chi%E1%BA%BFn-l%C6%B0%E1%BB%A3c-nh%E1%BA%ADn-%C4%91%E1%BB%A7-200-credit/|
+| 4   | Xem youtube về module 1 để chuẩn bị kiến thức liên quan.                                                     | 22/04/2026   | 22/04/2026      | https://www.youtube.com/watch?v=HxYZAK1coOI&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=4 |
+| 5   | Thực hiện các bài thực hành lab liên quan của module 1.                                                      | 23/04/2026   | 23/04/2026      | https://www.youtube.com/watch?v=waR5S_lljrk&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=11 |
+| 6   | Viết worklog và báo cáo                                                                                      | 24/04/2026   | 24/04/2026      |                                                                                              |
 
 ### Kết quả đạt được tuần 1:
 
